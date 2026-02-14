@@ -117,8 +117,10 @@ function App() {
     return (
       <div className="app">
         <div className="home-container">
-          <h1 className="app-title">🏰 Medieval India</h1>
-          <p className="app-subtitle">UPSC Preparation - Interactive Learning</p>
+          <div className="home-header">
+            <h1 className="app-title">🏰 Medieval India</h1>
+            <p className="app-subtitle">UPSC Preparation - Interactive Learning</p>
+          </div>
           
           <div className="topics-grid">
             {topics.map(topic => {
