@@ -21,13 +21,6 @@ export const topics = [
     emoji: '⚔️',
     description: 'Deccan Rivals (1347-1565 CE)',
     color: '#b8860b' // Dark goldenrod
-  },
-  {
-    id: 'mughal-empire',
-    title: '👑 Mughal Empire',
-    emoji: '👑',
-    description: 'Akbar\'s Court & Administration',
-    color: '#8b4513' // Saddle brown
   }
 ];
 
@@ -659,65 +652,6 @@ export const flashcards = {
       front: 'Vijayanagara Legacy',
       back: 'Contributions:\n✓ Preserved Hindu culture during Islamic expansion\n✓ Magnificent temples and architecture (Hampi)\n✓ Patronized Telugu, Sanskrit, Kannada literature\n✓ Economic prosperity (trade hub)\n✓ Strong administration model\n✓ Influenced South Indian kingdoms\n✓ Cultural Golden Age of South India'
     }
-  ],
-
-  // MUGHAL EMPIRE - AKBAR'S COURT
-  'mughal-empire': [
-    {
-      id: 1,
-      front: 'Akbar\'s Navratnas - Overview',
-      back: 'Nine Gems (Navratnas):\nGroup of intellectuals in Akbar\'s court (1556-1605)\n✓ Represented diverse talents\n✓ Scholars, poets, musicians, administrators\n✓ Symbol of Akbar\'s religious tolerance\n✓ Contributed to Mughal cultural Golden Age'
-    },
-    {
-      id: 2,
-      front: 'Abul Fazl',
-      back: 'Royal court historian and scholar\n✓ Wrote "Akbar Nama" (biography of Akbar)\n✓ Wrote "Ain-i-Akbari" (administration details)\n✓ Persian writer and intellectual\n✓ Brother of Faizi (poet)\n✓ Close advisor to Akbar\n✓ Killed by conspiracy (1602)'
-    },
-    {
-      id: 3,
-      front: 'Faizi (Abul Fazl\'s Brother)',
-      back: 'Persian poet and elder brother of Abul Fazl\n✓ Court poet of Akbar\n✓ Poet laureate (Malik-ush-Shuara)\n✓ Translated mathematical and literary works\n✓ Contributed to Persian literature\n✓ Member of Navratnas'
-    },
-    {
-      id: 4,
-      front: 'Fakir Aziao Din',
-      back: 'Sufi mystic and spiritual advisor\n✓ Key advisor to Akbar on spiritual matters\n✓ Influenced Akbar\'s religious policies\n✓ Promoted religious harmony\n✓ Part of Akbar\'s eclectic spiritual discussions\n✓ Member of Navratnas'
-    },
-    {
-      id: 5,
-      front: 'Tansen (Ramatanu Pandey)',
-      back: 'Renowned musician - Greatest of Navratnas\n✓ Original name: Ramatanu Pandey\n✓ Court musician to King Ramachandra\n✓ Accepted Islam under Sufi mystic Muhammad Ghaus of Gwalior\n✓ Title "Mian" given by Raja Vikramjit of Gwalior\n✓ Title bestowed by Akbar as well\n✓ Created ragas (Miyan ki Malhar, Darbari Kanada)\n✓ Legendary musician in Indian classical music'
-    },
-    {
-      id: 6,
-      front: 'Birbal (Kavi Priya)',
-      back: 'Courtier and wit\n✓ Titles: Raja and Birbal bestowed by Akbar\n✓ Original name: Mahesh Das\n✓ Known for intelligence and humor\n✓ Close companion of Akbar\n✓ Died fighting on Northwest frontiers\n✓ Famous in Indian folklore for wit\n✓ Member of Navratnas'
-    },
-    {
-      id: 7,
-      front: 'Raja Todar Mal',
-      back: 'Finance Minister (Diwan-i-Ashraf)\n✓ Title: Diwan-i-Ashraf (Finance minister)\n✓ Oversaw revenue system\n✓ Introduced standard weights and measurements\n✓ Organized revenue districts\n✓ Implemented land revenue reforms (Zabti system)\n✓ Key administrator in Akbar\'s reign\n✓ Member of Navratnas'
-    },
-    {
-      id: 8,
-      front: 'Raja Man Singh',
-      back: 'Mansabdar (military commander)\n✓ Grandson of Akbar\'s father-in-law\n✓ High-ranking Rajput noble\n✓ Military general under Akbar\n✓ Governor of various provinces\n✓ Led campaigns in Bengal and Afghanistan\n✓ Bridge between Rajputs and Mughals'
-    },
-    {
-      id: 9,
-      front: 'Abdul Rahim Khan-i-Khanan',
-      back: 'Scholar and translator\n✓ Son of Bairam Khan (Akbar\'s guardian)\n✓ Translated Baburnama into Persian\n✓ Poet in Hindi and Persian\n✓ Military commander (Khan-i-Khanan = Lord of Lords)\n✓ Patron of arts and literature\n✓ Member of Navratnas'
-    },
-    {
-      id: 10,
-      front: 'Akbar\'s Navratnas - Complete List',
-      back: 'Nine Gems:\n1. Abul Fazl (historian, Akbar Nama)\n2. Faizi (poet, Abul Fazl\'s brother)\n3. Fakir Aziao Din (Sufi mystic)\n4. Tansen (musician, Mian)\n5. Birbal (wit, Raja)\n6. Raja Todar Mal (finance minister)\n7. Raja Man Singh (military commander)\n8. Abdul Rahim Khan-i-Khanan (translator)\n9. [Others: Mullah Do Pyaza, Hakim Humam]'
-    },
-    {
-      id: 11,
-      front: 'Akbar\'s Court - Cultural Significance',
-      back: 'Achievements:\n✓ Center of intellectual excellence\n✓ Religious tolerance (Hindu-Muslim harmony)\n✓ Persian cultural influence\n✓ Indian classical music patronage\n✓ Administrative innovations\n✓ Literary works (Akbar Nama, Ain-i-Akbari)\n✓ Symbol of composite culture'
-    }
   ]
 };
 
@@ -1214,70 +1148,6 @@ export const quizQuestions = {
       options: ['A-2, B-4, C-3, D-1', 'A-1, B-3, C-2, D-4', 'A-3, B-2, C-4, D-1', 'A-4, B-1, C-3, D-2'],
       correct: 0,
       explanation: 'Correct: Architecture=Hampi temples (Dravidian-Vijayanagara fusion, Stone Chariot iconic). Literature=Ashtadiggajas elevated Telugu (Allasani Peddana greatest). Festival=Mahanavami grand celebrations (military, tribute, cultural). Poets=8 great Telugu poets. Comprehensive Golden Age preserving Hindu traditions during Islamic expansion South. 310-year empire (1336-1646) left lasting cultural legacy.'
-    }
-  ],
-
-  // MUGHAL EMPIRE - AKBAR'S COURT QUIZ
-  'mughal-empire': [
-    {
-      question: 'Akbar\'s Navratnas (Nine Gems):\n1. Represented diverse talents (scholars, poets, musicians, administrators)\n2. Symbol of religious tolerance\n3. All were Muslims\n4. Contributed to Mughal cultural Golden Age',
-      options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 1,
-      explanation: 'Options 1,2,4 correct. Navratnas=Diverse talents (Abul Fazl historian, Tansen musician, Todar Mal finance, Birbal wit). Religious tolerance=Hindus (Todar Mal, Man Singh, Birbal) + Muslims (Abul Fazl, Faizi, Abdul Rahim) + Sufi mystic (Fakir Aziao Din). Option 3 incorrect - mix of religions. Cultural Golden Age=Arts, administration, literature flourished. Akbar reign 1556-1605.'
-    },
-    {
-      question: 'Match Navratnas with roles:\nA. Abul Fazl - 1. Musician, Mian title, ragas\nB. Tansen - 2. Finance minister, revenue reforms\nC. Raja Todar Mal - 3. Historian, Akbar Nama\nD. Birbal - 4. Wit and courtier',
-      options: ['A-3, B-1, C-2, D-4', 'A-1, B-2, C-3, D-4', 'A-2, B-3, C-4, D-1', 'A-4, B-1, C-3, D-2'],
-      correct: 0,
-      explanation: 'Correct: Abul Fazl=Historian (wrote Akbar Nama biography + Ain-i-Akbari administration details, killed 1602). Tansen=Greatest musician (Ramatanu Pandey, Mian title, created ragas Miyan ki Malhar + Darbari Kanada, studied under Muhammad Ghaus Gwalior). Todar Mal=Finance minister (Diwan-i-Ashraf, standard weights/measurements, Zabti land revenue system). Birbal=Wit (Mahesh Das, Raja title, died Northwest frontiers, folklore fame).'
-    },
-    {
-      question: 'Abul Fazl and Faizi (brothers):\n1. Both in Akbar\'s court\n2. Abul Fazl wrote Akbar Nama\n3. Faizi was elder brother and poet\n4. Both historians',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Both in court=Navratnas members, Persian scholars. Abul Fazl=Historian (Akbar Nama + Ain-i-Akbari, close Akbar advisor, killed 1602 conspiracy). Faizi=Elder brother, poet (Malik-ush-Shuara = Poet Laureate, translated works, Persian literature). Option 4 incorrect - Faizi was poet, not historian. Brothers contributed significantly to Mughal literary culture.'
-    },
-    {
-      question: 'Tansen\'s musical journey:\n1. Original name Ramatanu Pandey\n2. Accepted Islam under Muhammad Ghaus of Gwalior\n3. Title "Mian" from Raja Vikramjit\n4. Created famous ragas',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Ramatanu Pandey=Original name (Hindu Brahmin origin). Court musician=Initially served King Ramachandra. Accepted Islam=Under Sufi mystic Muhammad Ghaus of Gwalior (spiritual influence). "Mian" title=From Raja Vikramjit of Gwalior + bestowed by Akbar. Famous ragas=Miyan ki Malhar (monsoon), Darbari Kanada, others. Legend: could light lamps/bring rain with music. Greatest musician in Indian classical history.'
-    },
-    {
-      question: 'Raja Todar Mal administrative reforms:\n1. Finance minister (Diwan-i-Ashraf)\n2. Introduced standard weights/measurements\n3. Organized revenue districts\n4. Implemented Zabti land revenue system',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Diwan-i-Ashraf=Finance minister title (oversaw imperial treasury). Standard weights/measurements=Unified system across empire (facilitated trade/revenue). Revenue districts=Organized territories systematically (efficient administration). Zabti system=Land measurement-based revenue (assessed productivity, fixed rates, replaced arbitrary collection). Revolutionary reforms strengthened Mughal economy. Model for later rulers. Key contributor to Akbar\'s administrative success.'
-    },
-    {
-      question: 'Compare Navratnas backgrounds:\nHindus: Todar Mal, Man Singh, Birbal\nMuslims: Abul Fazl, Faizi, Abdul Rahim\nSufi: Fakir Aziao Din\nConverted: Tansen (Hindu→Islam)',
-      options: ['All Muslims in court', 'Religious diversity present', 'Only one religion', 'No converts'],
-      correct: 1,
-      explanation: 'Religious diversity=Akbar\'s tolerance policy evident. Hindus=3 Navratnas (Todar Mal finance + Man Singh military + Birbal wit, high positions despite religion). Muslims=Abul Fazl/Faizi brothers (Persian scholars) + Abdul Rahim (Bairam Khan son). Sufi=Fakir Aziao Din (spiritual advisor). Convert=Tansen (born Hindu, accepted Islam under Muhammad Ghaus, retained respect). Unprecedented religious integration in medieval India. Symbol of composite culture.'
-    },
-    {
-      question: 'Abdul Rahim Khan-i-Khanan:\n1. Son of Bairam Khan (Akbar\'s guardian)\n2. Translated Baburnama into Persian\n3. Poet in Hindi and Persian\n4. Military commander (Khan-i-Khanan = Lord of Lords)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Bairam Khan son=Akbar\'s regent/guardian (1556-1560), Abdul Rahim inherited noble status. Translated Baburnama=Babur\'s autobiography from Chagatai Turkish to Persian (preserved Mughal founder\'s memoirs). Bilingual poet=Wrote in Hindi (dohas/couplets popular in Indian literature) + Persian (court language). Khan-i-Khanan=Military title "Lord of Lords" (high rank, led campaigns). Multi-talented Navratna - scholar+warrior+poet. Patron of arts.'
-    },
-    {
-      question: 'Raja Man Singh military role:\n1. Mansabdar (military commander)\n2. Grandson of Akbar\'s father-in-law\n3. Rajput noble (bridge to Rajput kingdoms)\n4. Led campaigns in Bengal and Afghanistan',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Mansabdar=High-ranking military commander in Mughal system. Family connection=Grandson of Bhagwan Das (Akbar\'s father-in-law through marriage alliance with Amber/Jaipur). Rajput bridge=Crucial link between Mughals and Rajput kingdoms (alliance policy strengthened empire). Bengal+Afghanistan campaigns=Military successes expanded/secured empire. Governor of various provinces (Kabul, Bengal, Bihar). Key figure in Akbar\'s military+diplomatic strategy. Rajput integration policy success.'
-    },
-    {
-      question: 'Birbal (Mahesh Das) characteristics:\n1. Titles: Raja and Birbal from Akbar\n2. Known for wit and humor\n3. Close companion of Akbar\n4. Died fighting on Northwest frontiers',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Titles=Raja (nobility) + Birbal bestowed by Akbar (recognition of service). Wit=Famous for intelligent humor (Akbar-Birbal stories legendary in Indian folklore, clever problem-solving). Close companion=Personal friend beyond courtier (unusual emperor-subject relationship). Died fighting=Northwest frontier military expedition (showing courage despite wit reputation). Historical figure became folklore icon. Symbol of wisdom+humor in Indian culture. Death showed bravery alongside intelligence.'
-    },
-    {
-      question: 'Akbar\'s court cultural achievements:\n1. Persian literary influence\n2. Indian classical music patronage (Tansen)\n3. Religious tolerance (Hindu-Muslim harmony)\n4. Administrative innovations (Todar Mal reforms)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Persian literature=Abul Fazl (Akbar Nama), Faizi (poetry), Abdul Rahim (translations) - court language + culture. Music=Tansen elevated Indian classical (ragas, dhrupad style, legendary performances). Religious tolerance=Hindu Navratnas (Todar Mal, Man Singh, Birbal) + Muslim scholars + Sufi advisors (composite culture, Din-i-Ilahi syncretic religion 1582). Administrative innovations=Todar Mal revenue reforms + Mansabdari military system. Golden Age of Mughal culture (1556-1605). Model of pluralistic governance.'
     }
   ]
 };
