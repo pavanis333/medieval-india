@@ -6,7 +6,7 @@ export const topics = [
     title: '🏰 Gurjara Pratiharas',
     emoji: '🏰',
     description: 'Early Medieval Dynasty (730-1036 CE)',
-    color: '#8B4513'
+    color: '#d4a574' // Medieval gold/sandstone color
   }
 ];
 
