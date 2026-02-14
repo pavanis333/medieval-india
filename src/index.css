@@ -279,11 +279,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Changed from center to flex-start */
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   border: 3px solid #d4a574;
+  overflow-y: auto; /* Added scroll */
 }
 
 .flashcard-front {
@@ -297,9 +298,13 @@ body {
 
 .flashcard-front p,
 .flashcard-back p {
-  font-size: 1.4rem;
+  font-size: 1.3rem; /* Slightly reduced from 1.4rem */
   color: #3e2723;
   text-align: center;
+  line-height: 1.6;
+  max-width: 100%;
+  word-wrap: break-word;
+}
   line-height: 1.8;
 }
 
@@ -682,4 +687,27 @@ body {
   .progress-stats {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* Custom Scrollbar for Flashcards */
+.flashcard-front::-webkit-scrollbar,
+.flashcard-back::-webkit-scrollbar {
+  width: 8px;
+}
+
+.flashcard-front::-webkit-scrollbar-track,
+.flashcard-back::-webkit-scrollbar-track {
+  background: rgba(212, 165, 116, 0.2);
+  border-radius: 4px;
+}
+
+.flashcard-front::-webkit-scrollbar-thumb,
+.flashcard-back::-webkit-scrollbar-thumb {
+  background: #d4a574;
+  border-radius: 4px;
+}
+
+.flashcard-front::-webkit-scrollbar-thumb:hover,
+.flashcard-back::-webkit-scrollbar-thumb:hover {
+  background: #b8860b;
 }
