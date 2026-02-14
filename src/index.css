@@ -367,14 +367,9 @@ body {
   transition: all 0.3s ease;
 }
 
-.flashcard-nav button:hover:not(:disabled) {
+.flashcard-nav button:hover {
   background: #d4a574;
   color: #fff;
-}
-
-.flashcard-nav button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 
 /* BROWSE VIEW */
@@ -560,14 +555,9 @@ body {
   transition: all 0.3s ease;
 }
 
-.quiz-nav button:hover:not(:disabled) {
+.quiz-nav button:hover {
   background: #d4a574;
   color: #fff;
-}
-
-.quiz-nav button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 
 /* PROGRESS VIEW */

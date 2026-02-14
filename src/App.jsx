@@ -55,17 +55,13 @@ function App() {
   const handleFlip = () => setIsFlipped(!isFlipped);
 
   const handleNext = () => {
-    if (currentCardIndex < cards.length - 1) {
-      setCurrentCardIndex(currentCardIndex + 1);
-      setIsFlipped(false);
-    }
+    setCurrentCardIndex((currentCardIndex + 1) % cards.length);
+    setIsFlipped(false);
   };
 
   const handlePrevious = () => {
-    if (currentCardIndex > 0) {
-      setCurrentCardIndex(currentCardIndex - 1);
-      setIsFlipped(false);
-    }
+    setCurrentCardIndex((currentCardIndex - 1 + cards.length) % cards.length);
+    setIsFlipped(false);
   };
 
   const handleKnown = (known) => {
@@ -85,19 +81,15 @@ function App() {
   };
 
   const handleNextQuestion = () => {
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedAnswer(null);
-      setShowExplanation(false);
-    }
+    setCurrentQuestionIndex((currentQuestionIndex + 1) % questions.length);
+    setSelectedAnswer(null);
+    setShowExplanation(false);
   };
 
   const handlePreviousQuestion = () => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(currentQuestionIndex - 1);
-      setSelectedAnswer(null);
-      setShowExplanation(false);
-    }
+    setCurrentQuestionIndex((currentQuestionIndex - 1 + questions.length) % questions.length);
+    setSelectedAnswer(null);
+    setShowExplanation(false);
   };
 
   const getProgressStats = () => {
@@ -250,10 +242,10 @@ function App() {
           </div>
 
           <div className="flashcard-nav">
-            <button onClick={handlePrevious} disabled={currentCardIndex === 0}>
+            <button onClick={handlePrevious}>
               ← Previous
             </button>
-            <button onClick={handleNext} disabled={currentCardIndex === cards.length - 1}>
+            <button onClick={handleNext}>
               Next →
             </button>
           </div>
@@ -341,10 +333,10 @@ function App() {
           </div>
 
           <div className="quiz-nav">
-            <button onClick={handlePreviousQuestion} disabled={currentQuestionIndex === 0}>
+            <button onClick={handlePreviousQuestion}>
               ← Previous
             </button>
-            <button onClick={handleNextQuestion} disabled={currentQuestionIndex === questions.length - 1}>
+            <button onClick={handleNextQuestion}>
               Next →
             </button>
           </div>
