@@ -28,13 +28,6 @@ export const topics = [
     emoji: '👑',
     description: 'Akbar\'s Court & Administration',
     color: '#8b4513' // Saddle brown
-  },
-  {
-    id: 'marathas',
-    title: '🗡️ The Marathas',
-    emoji: '🗡️',
-    description: 'Administration & Peshwa System (1674-1818)',
-    color: '#cd853f' // Peru (orange-brown)
   }
 ];
 
@@ -725,85 +718,6 @@ export const flashcards = {
       front: 'Akbar\'s Court - Cultural Significance',
       back: 'Achievements:\n✓ Center of intellectual excellence\n✓ Religious tolerance (Hindu-Muslim harmony)\n✓ Persian cultural influence\n✓ Indian classical music patronage\n✓ Administrative innovations\n✓ Literary works (Akbar Nama, Ain-i-Akbari)\n✓ Symbol of composite culture'
     }
-  ],
-
-  // THE MARATHAS (1674-1818)
-  'marathas': [
-    {
-      id: 1,
-      front: 'Maratha Administration - Overview',
-      back: 'System: Centralized under Shivaji, later Peshwa-dominated\n✓ Ashta Pradhan Mandal (Council of 8 ministers)\n✓ Strong revenue system\n✓ Efficient military organization\n✓ Village-based administration\n✓ Blend of Mughal and indigenous systems'
-    },
-    {
-      id: 2,
-      front: 'Ashta Pradhan Mandal - Eight Ministers',
-      back: 'Shivaji\'s advisory council with 8 ministers:\n1. Peshwa (Prime Minister)\n2. Amatya/Mazumdar (Finance)\n3. Wakia-Navis/Mantri (Records)\n4. Sumant (Foreign Secretary)\n5. Sachiv/Shuru Navis (Correspondence)\n6. Pandit Rao (Religion)\n7. Nyayadhish (Justice)\n8. Sari Naubat/Senapati (Commander-in-Chief)'
-    },
-    {
-      id: 3,
-      front: 'Peshwa (Mukhya Pradhan)',
-      back: 'Prime Minister - Most powerful position\n✓ Looked after king\'s finances and interests\n✓ Officiated absence of the king\n✓ Initially non-hereditary\n✓ Balaji Vishwanath (1713-1720) made it supreme and hereditary\n✓ Later Peshwas effectively ruled (1714-1818)'
-    },
-    {
-      id: 4,
-      front: 'Peshwa Secretariat - Huzur Daftar at Poona',
-      back: 'Central Secretariat managing:\n✓ Managing revenues, expenditures\n✓ Accounts from village and district officials\n✓ Daily records of revenues, grants, payments from foreign territories\n✓ Salaries of public servants\n✓ Budgets: civil, military, religious heads'
-    },
-    {
-      id: 5,
-      front: 'Maratha Provincial Administration',
-      back: 'Provinces:\n✓ Large provinces had Sar-Subahdars as governors\n✓ Divisions called Subahs and Pranths\n✓ Mamlatdar and Kamavisdar were district representatives\n✓ Responsible for every branch of district administration\n✓ Deshmukh and Deshpandes: district account officers\n✓ System of checks and balances'
-    },
-    {
-      id: 6,
-      front: 'Maratha Revenue System',
-      back: 'Primary source: Land revenue\n✓ Transitioned from sharing agricultural produce (Shivaji) to tax farming\n✓ Assessment based on crops, irrigation facilities, productivity\n✓ Chauth: 1/4th of revenue from other territories\n✓ Sardeshmukhi: Additional 10% levy\n✓ Rasad: Heavy sum from Mamlatdars and officials\n✓ First appointment to district = remitting revenue'
-    },
-    {
-      id: 7,
-      front: 'Maratha Village Administration',
-      back: 'Basic unit: Village headed by Patel\n✓ Patel: Government and hereditary chief officer\n✓ Responsible for remitting revenue to center\n✓ Assisted by accountant/record-keeper (Kulkarni)\n✓ Hereditary servants: communal functions\n✓ Village artisans: compulsory labor (begar)\n✓ Self-supportive system\n✓ Cultivators got loans (Tagoi)'
-    },
-    {
-      id: 8,
-      front: 'Maratha Urban Administration',
-      back: 'Kotwal: Chief officer in towns/cities\n✓ Also functioned as magistrate\n✓ Maintenance of peace and order\n✓ Regulation of prices\n✓ Settling civil disputes\n✓ Sending monthly accounts to government'
-    },
-    {
-      id: 9,
-      front: 'Maratha Judicial System',
-      back: 'Characteristics:\n✓ Rudimentary, lacking codified laws\n✓ Arbitration prioritized\n✓ Panchayat decisions in villages\n✓ Based on Manu\'s code and Mitakshara School (Yajnavalkya Smriti)\n✓ Hierarchy: Raja Chhatrapati (apex) → Peshwa → Sar-Subahdar → Mamlatdar → Patel\n✓ Flogging and torture common for confessions\n✓ Separation of judicial from executive prevalent'
-    },
-    {
-      id: 10,
-      front: 'Maratha Military - Army Structure',
-      back: 'Resembled Mughal system:\n✓ Recruited soldiers from across India\n✓ Mix: Arabs, Sikhs, mercenaries\n✓ Contrasted with Shivaji\'s local Maratha enlistment\n✓ More diverse but less loyal than original Maratha forces'
-    },
-    {
-      id: 11,
-      front: 'Maratha Cavalry',
-      back: 'Main strength of army:\n✓ Each Jaminder obligated to bring stipulated horsemen yearly\n✓ Three categories based on horse quality:\n  - Bargir (best horses, highest salary)\n  - Chihalias (medium quality)\n  - Siledis (lower quality)\n✓ Salaries higher than Maratha soldiers'
-    },
-    {
-      id: 12,
-      front: 'Maratha Infantry and Artillery',
-      back: 'Infantry: Lower salaries than cavalry\n✓ Composed of Jamindar and Vijayadura units\n✓ Internal disputes affected Maratha unity\nArtillery:\n✓ Manned by Portuguese and Indian Christians\n✓ Later also English personnel\n✓ Technical expertise from Europeans'
-    },
-    {
-      id: 13,
-      front: 'Maratha Navy',
-      back: 'Guarded Maratha ports:\n✓ Combated piracy\n✓ Collected customs duties\n✓ Balaji Vishwanath established naval bases:\n  - Konkan\n  - Khanderi\n  - Vijayadurg\n✓ Maritime strength complemented land power'
-    },
-    {
-      id: 14,
-      front: 'Maratha Police System',
-      back: 'Characteristics:\n✓ Watchmen employed in every village\n✓ Usually from Mahar caste\n✓ Disturbed areas: additional house tax\n✓ Government sent forces from irregular infantry\n✓ Crime control measures'
-    },
-    {
-      id: 15,
-      front: 'Balaji Vishwanath (1713-1720)',
-      back: 'First prominent Peshwa:\n✓ Established Peshwa office as supreme and hereditary\n✓ Took control after Shambhaji\n✓ Streamlined administration\n✓ Founded naval bases (Konkan, Khanderi, Vijayadurg)\n✓ Made Peshwa position dominant\n✓ Legacy: Peshwa dynasty ruled till 1818'
-    }
   ]
 };
 
@@ -1364,82 +1278,6 @@ export const quizQuestions = {
       options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
       correct: 3,
       explanation: 'All correct. Persian literature=Abul Fazl (Akbar Nama), Faizi (poetry), Abdul Rahim (translations) - court language + culture. Music=Tansen elevated Indian classical (ragas, dhrupad style, legendary performances). Religious tolerance=Hindu Navratnas (Todar Mal, Man Singh, Birbal) + Muslim scholars + Sufi advisors (composite culture, Din-i-Ilahi syncretic religion 1582). Administrative innovations=Todar Mal revenue reforms + Mansabdari military system. Golden Age of Mughal culture (1556-1605). Model of pluralistic governance.'
-    }
-  ],
-
-  // THE MARATHAS QUIZ
-  'marathas': [
-    {
-      question: 'Ashta Pradhan Mandal (Eight Ministers):\n1. Advisory council under Shivaji\n2. Peshwa was Prime Minister\n3. All positions were hereditary\n4. Included Finance, Foreign, Justice ministers',
-      options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 1,
-      explanation: 'Options 1,2,4 correct. Eight ministers=Advisory council under Shivaji (1674 onwards). Peshwa=Prime Minister (most powerful, officiated king absence). Diverse=Amatya (Finance), Sumant (Foreign), Pandit Rao (Religion), Nyayadhish (Justice), Senapati (Commander). Option 3 incorrect - initially NOT all hereditary. Balaji Vishwanath (1713-1720) made Peshwa hereditary and supreme. System blended Mughal and indigenous administration.'
-    },
-    {
-      question: 'Match Ashta Pradhan positions:\nA. Peshwa - 1. Records and proceedings\nB. Amatya/Mazumdar - 2. Prime Minister\nC. Wak\'ia-Navis/Mantri - 3. Finance Minister\nD. Sari Naubat - 4. Commander-in-Chief',
-      options: ['A-2, B-3, C-1, D-4', 'A-1, B-2, C-3, D-4', 'A-3, B-4, C-2, D-1', 'A-4, B-1, C-3, D-2'],
-      correct: 0,
-      explanation: 'Correct: Peshwa=Prime Minister (most powerful, king finances/interests). Amatya/Mazumdar=Finance Minister. Wak\'ia-Navis/Mantri=Maintained records/proceedings/court activities. Sari Naubat/Senapati=Commander-in-Chief (military head). Other ministers: Sumant (Foreign/war/peace/diplomacy), Sachiv/Shuru Navis (Correspondence with king/checked accounts), Pandit Rao (Religion/ceremonies), Nyayadhish (Chief Justice).'
-    },
-    {
-      question: 'Peshwa office transformation:\n1. Initially non-hereditary under Shivaji\n2. Balaji Vishwanath (1713-1720) made it supreme and hereditary\n3. Peshwas effectively ruled 1714-1818\n4. Always remained subordinate to Chhatrapati',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Initially=One of eight ministers, not hereditary (Shivaji intent). Balaji Vishwanath=Took control after Shambhaji, established supremacy+hereditary (streamlined administration). 1714-1818=Peshwa period, effective rulers (Chhatrapati nominal). Option 4 incorrect - Peshwas dominated, not subordinate in practice. Headquarters: Poona (Pune). Watershed transformation from minister to de facto ruler.'
-    },
-    {
-      question: 'Peshwa Secretariat (Huzur Daftar at Poona):\n1. Central administration managing revenues/expenditures\n2. Kept daily records from village/district officials\n3. Handled foreign territory accounts\n4. Managed civil, military, religious budgets',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Central=Heart of Maratha administration at Poona. Revenues/expenditures=Comprehensive financial management. Daily records=Meticulous documentation (revenues, grants, payments from foreign territories). Salaries=Public servants paid systematically. Budgets=Civil (administration), military (army), religious (ceremonies). Efficient bureaucracy. Record-keeper=Kulkarni. Reflects sophisticated administrative system under Peshwas.'
-    },
-    {
-      question: 'Maratha Provincial Administration:\n1. Sar-Subahdars as provincial governors\n2. Divisions: Subahs and Pranths\n3. Mamlatdar and Kamavisdar district representatives\n4. Deshmukh and Deshpandes handled accounts',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Sar-Subahdars=Large province governors. Divisions=Subahs (provinces) + Pranths (sub-divisions, administrative units). Mamlatdar+Kamavisdar=Peshwa district representatives (every branch of administration, checks/balances). Deshmukh+Deshpandes=District account officers (managed accounts at Pargana level, Deshpande for legal/policing). Hierarchical system with accountability. Observed Mamlatdars/Kamavistars activities.'
-    },
-    {
-      question: 'Maratha Revenue System:\n1. Primary income: Land revenue\n2. Transitioned from produce-sharing to tax farming\n3. Chauth = 1/4th revenue from others\n4. Sardeshmukhi = Additional 10%',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Land revenue=Primary (transitioned Shivaji\'s produce-sharing to tax farming, assessed on crops/irrigation/productivity). Chauth=1/4th (25%) levy from territories (protection money from Mughal/other areas). Sardeshmukhi=Additional 10% claim (hereditary right assertion). Rasad=Heavy sum from Mamlatdars/officials (collected on first appointment to district). Revenue remittance=Primary responsibility. Mamlatneeri=District payment to government. First appointment ritual.'
-    },
-    {
-      question: 'Maratha Village Administration:\n1. Basic unit headed by Patel\n2. Patel = Government and hereditary chief\n3. Kulkarni = Accountant/record-keeper\n4. Villages completely autonomous',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Patel=Village head (government+hereditary chief officer, responsible for remitting revenue to center). Kulkarni=Assisted Patel (accountant, record-keeper, crucial for administration). Hereditary servants=Communal functions. Option 4 incorrect - villages NOT fully autonomous (remitted revenue, government oversight, compulsory labor/begar for artisans). Self-supportive but connected to central system. Cultivators=Loans (Tagoi) from Maratha State.'
-    },
-    {
-      question: 'Compare Maratha Administration levels:\nUrban: Kotwal (chief officer/magistrate)\nVillage: Patel (hereditary chief)\nDistrict: Mamlatdar (Peshwa representative)\nProvince: Sar-Subahdar (governor)',
-      options: ['Only 2 levels existed', 'All levels interconnected', 'Complete decentralization', 'No accountability'],
-      correct: 1,
-      explanation: 'All interconnected=Hierarchical system. Urban=Kotwal (peace/order, price regulation, civil disputes, monthly government accounts). Village=Patel (revenue remittance, assisted by Kulkarni). District=Mamlatdar+Kamavisdar (Peshwa representatives, every admin branch, observed by Deshmukh/Deshpandes). Province=Sar-Subahdar (large provinces governor, Subahs/Pranths divisions). System of checks+balances throughout. Accountability mechanisms. Efficient revenue+administrative hierarchy from village→center (Huzur Daftar Poona).'
-    },
-    {
-      question: 'Maratha Judicial System:\n1. Rudimentary, lacking codified laws\n2. Arbitration and panchayat prioritized\n3. Based on Manu\'s code and Mitakshara School\n4. Separation of judicial from executive',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Rudimentary=Lacking codified procedures (contrast to developed admin). Arbitration=Preferred resolution (panchayat in villages, leading merchants in towns). Based on=Manu\'s code + Mitakshara School of Law (derived from Yajnavalkya Smriti). Hierarchy=Raja Chhatrapati (apex criminal cases) → Peshwa → Sar-Subahdar → Mamlatdar → Patel (common: flogging/torture for confessions). Separation=Judicial from executive prevalent (unusual for era). Unresolved=Transferred to panchayat. Appeals possible.'
-    },
-    {
-      question: 'Maratha Military vs Mughal:\n1. Resembled Mughal system\n2. Recruited soldiers from across India\n3. Mix of Arabs, Sikhs, mercenaries\n4. Contrasted with Shivaji\'s local enlistment',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Resembled Mughals=Later Marathas adopted similar recruitment (professionalization). Pan-India=Recruited from across regions (not just Maharashtra). Diverse mix=Arabs, Sikhs, mercenaries, internal disputes, affecting unity. Contrasted Shivaji=Originally local Maratha enlistment (loyal, cohesive). Trade-off=Diversity vs loyalty. More diverse but less loyal than original forces. Cavalry (main strength) + Infantry (Jamindar/Vijayadura) + Artillery (Portuguese/Christians/English). Navy=Balaji Vishwanath (Konkan, Khanderi, Vijayadurg).'
-    },
-    {
-      question: 'Maratha Cavalry categories:\n1. Main strength of army\n2. Jamindar brought stipulated horsemen yearly\n3. Three categories: Bargir, Chihalias, Siledis\n4. Based on horse quality and salary',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Main strength=Cavalry crucial (mobile warfare, raids). Jamindar obligation=Each brought stipulated horsemen yearly (feudal-like system). Three categories based on horse quality: Bargir (best horses, highest salaries, elite), Chihalias (medium quality, moderate pay), Siledis (lower quality horses, lower salaries). All higher salaries than Maratha infantry soldiers. Quality-based differentiation. Reflects importance of cavalry in Maratha military strategy.'
-    },
-    {
-      question: 'Maratha Artillery expertise:\n1. Manned by Portuguese\n2. Indian Christians involved\n3. Later English personnel\n4. Technical expertise from Europeans',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Portuguese=Initially manned artillery (European gunpowder technology). Indian Christians=Also involved (converted Christians with technical skills). English=Later recruited (British expertise). European expertise=Critical for modern warfare (cannon technology, tactics). Marathas pragmatic=Hired foreign experts despite religious differences. Artillery complemented strong cavalry. Infantry=Lower salaries, Jamindar+Vijayadura units, internal disputes. Complete army: Cavalry (main) + Infantry + Artillery + Navy (Balaji Vishwanath naval bases).'
     }
   ]
 };
