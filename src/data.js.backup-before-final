@@ -936,218 +936,338 @@ export const quizQuestions = {
   // DELHI SULTANATE QUIZ (30 questions covering 32 flashcards)
   'delhi-sultanate': [
     {
-      question: 'Delhi Sultanate overview (1206-1526):\n1. Five dynasties ruled for 320 years\n2. First Islamic rule in North India\n3. Ended with Babur victory at Panipat (1526)\n4. Founded basis for Mughal Empire',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Five dynasties: Slave/Mamluk, Khalji, Tughlaq, Sayyid, Lodi (320 years). First Islamic rule established. Ended when Ibrahim Lodi defeated by Babur at First Battle of Panipat April 21, 1526. Administrative systems, architecture, cultural synthesis influenced Mughals.'
-    },
-    {
-      question: 'Qutb-ud-din Aibak (1206-1210):\n1. Founded Delhi Sultanate\n2. Title "Lakh Baksh" (generous giver)\n3. Started Qutub Minar (1199, 72.5m)\n4. Former slave of Muhammad Ghori',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Founded 1206 after Ghori death. "Lakh Baksh"=Generous to scholars/poor. Started Qutub Minar 1199 (completed by Iltutmish, red sandstone, Indo-Islamic architecture). Former Mamluk slave-soldier rose to Sultan (unique global first slave dynasty).'
-    },
-    {
-      question: 'Iltutmish (1211-1236) consolidation:\n1. Real consolidator of Delhi Sultanate\n2. Completed Qutub Minar (72.5m)\n3. Created Chahalgani (Group of 40 nobles)\n4. Introduced silver tanka and copper jital',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Real consolidator (Aibak ruled only 4 years). Completed Qutub Minar 72.5m tall. Chahalgani=Council of 40 Turkish nobles for governance. Standardized currency: silver tanka (large transactions), copper jital (daily use). Received recognition from Baghdad Caliph. Strong administrative foundation.'
-    },
-    {
-      question: 'Razia Sultan (1236-1240):\n1. Only woman ruler of Delhi Sultanate\n2. Daughter of Iltutmish\n3. Faced Turkish noble opposition\n4. Ruled successfully for 20 years',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Only woman ruler (unprecedented). Iltutmish daughter (he nominated her). Faced opposition from Chahalgani and Turkish nobles (gender bias). BUT ruled only 4 years (1236-1240), not 20 - overthrown and killed 1240. Short but remarkable reign.'
-    },
-    {
-      question: 'Balban (1266-1287) "Blood and Iron":\n1. Theory of divine kingship\n2. Persian court rituals (sijda, paibos)\n3. Broke Chahalgani power\n4. Focused on territorial expansion',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Divine kingship="God\'s shadow on Earth", absolute authority. Persian rituals=Sijda (prostration), paibos (kissing feet) for royal dignity. Broke Chahalgani=Eliminated powerful nobles, centralized power. BUT focused on consolidation, not expansion (secured borders, suppressed rebellions). Strong authoritarian ruler.'
-    },
-    {
-      question: 'Match Slave/Mamluk dynasty rulers:\nA. Qutb-ud-din Aibak - 1. Completed Qutub, Chahalgani, coins\nB. Iltutmish - 2. Founder, "Lakh Baksh", started Qutub\nC. Razia Sultan - 3. "Blood & Iron", broke Chahalgani\nD. Balban - 4. Only woman ruler (1236-1240)',
-      options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-3, B-4, C-2, D-1', 'A-4, B-3, C-1, D-2'],
-      correct: 0,
-      explanation: 'Correct: Aibak=Founder+"Lakh Baksh"+started Qutub (1206-1210). Iltutmish=Real consolidator+completed Qutub+Chahalgani+coins (1211-1236). Razia=Only woman ruler (1236-1240, faced opposition). Balban="Blood & Iron"+broke Chahalgani+centralized (1266-1287). Slave dynasty 1206-1290 (84 years).'
-    },
-    {
-      question: 'Alauddin Khalji (1296-1316) greatest achievements:\n1. Most powerful Delhi Sultan\n2. Repelled Mongols multiple times (1297-1308)\n3. Conquered South via Malik Kafur\n4. Market control system',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Most powerful=Peak territorial extent. Mongol defense=Defeated 6+ invasions (1297-1308, built Siri Fort, strong standing army). South conquests=Malik Kafur 1308-1311 (Devagiri, Warangal, Hoysalas, Madurai - massive wealth). Market reforms=Fixed prices, prevented hoarding, intelligence network. Military+administrative genius.'
-    },
-    {
-      question: 'Alauddin Khalji market control:\n1. Fixed prices for all commodities\n2. Shahna-i-mandi (market inspectors)\n3. Barids (intelligence spies)\n4. Purpose: cheap army supplies',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Revolutionary market control: Fixed prices prevented inflation. Shahna-i-mandi=Market controllers (harsh penalties for violations). Barids=Intelligence network (prevented cheating/hoarding). Purpose=Cheap supplies for large standing army (Mongol defense requirement). Unprecedented state economic intervention. Successful during reign, collapsed after death.'
-    },
-    {
-      question: 'Match Alauddin Khalji South conquests (Malik Kafur):\nA. Devagiri (Yadavas) - 1. 1311, Pandyas, rich spoils\nB. Warangal (Kakatiyas) - 2. 1296 & 1307, annexed\nC. Hoysalas - 3. 1310 & 1318, Kohinoor diamond\nD. Madurai (Pandyas) - 4. 1311, defeated',
-      options: ['A-2, B-3, C-4, D-1', 'A-1, B-2, C-3, D-4', 'A-3, B-4, C-1, D-2', 'A-4, B-1, C-2, D-3'],
-      correct: 0,
-      explanation: 'Correct: Devagiri=1296 (Alauddin personally)+1307 (Malik Kafur annexed Yadavas). Warangal=1310+1318 (Kakatiya resistance, Kohinoor seized). Hoysalas=1311 defeated. Madurai=1311 (Pandyas, southernmost reach, rich temples). Massive wealth funded Mongol defense. First Sultanate control of South (temporary).'
-    },
-    {
-      question: 'Muhammad bin Tughlaq (1325-1351) five experiments:\n1. Doab taxation → Famine\n2. Capital shift Delhi→Daulatabad → Disaster\n3. Token currency → Counterfeiting\n4. Khurasan & Qarachil expeditions → Failures',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All 5 failed: 1)Doab taxation=Increased during drought→famine→rebellion. 2)Capital 1327=Forced Delhi population to Daulatabad 1400km→suffering→abandoned. 3)Token currency 1329-1330=Brass/copper replace silver→counterfeiting→collapse. 4&5)Khurasan+Qarachil military expeditions=Abandoned (impractical/expensive). Educated but impractical - "mixture of opposites".'
-    },
-    {
-      question: 'Firoz Shah Tughlaq (1351-1388) welfare:\n1. 5 canals, 50 dams for irrigation\n2. 40 mosques, 30 colleges, 100 hospitals\n3. 180,000 slaves department\n4. 200 towns, 100 baths, 200 caravanserais',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Welfare sultan: Irrigation (5 canals, 50 dams). Infrastructure (40 mosques, 30 colleges, 100 hospitals, 100 baths, 200 caravanserais). 180,000-slave department for public works. Founded/rebuilt 200+ towns. Contrasted with Muhammad Tughlaq failures. Popular but weakened sultanate militarily.'
-    },
-    {
-      question: 'Timur invasion 1398-1399:\n1. Sacked Delhi (massive destruction)\n2. Looted immense wealth\n3. Fatally weakened Tughlaq dynasty\n4. Facilitated Sayyid rise',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Timur (Turco-Mongol) invaded from Samarkand. Delhi sacked=Massacre/destruction. Wealth looted=Artisans taken to Samarkand. Tughlaq=Ended 1414 (only 16 years after raid, never recovered). Sayyids=Rose from chaos 1414-1451. Watershed moment accelerating sultanate decline.'
-    },
-    {
-      question: 'Sayyid Dynasty (1414-1451):\n1. Weakest Delhi Sultanate dynasty\n2. Only 37 years duration\n3. Controlled only Delhi region\n4. Founded by Khizr Khan (Timur appointee)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Weakest=Minimal power/authority. Shortest=37 years only. Limited=Only Delhi and surroundings (provincial governors independent). Khizr Khan=Founder, initially Timur governor, claimed Prophet descent (Sayyid=descendant). Transitional period between Tughlaqs-Lodis.'
-    },
-    {
-      question: 'Lodi Dynasty (1451-1526):\n1. First Afghan dynasty\n2. Bahlul Lodi founded (1451)\n3. Sikandar Lodi best (founded Agra 1504)\n4. Ibrahim Lodi defeated at Panipat (1526)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. First Afghans (earlier dynasties Turkish/Turco-Mongol). Bahlul=Founded 1451 (controlled Delhi+Jaunpur). Sikandar=Best (1489-1517, founded Agra 1504, Bengal borders, Persian literature). Ibrahim=Last sultan, arrogant, defeated by Babur April 21, 1526 (First Battle of Panipat). End of 320-year sultanate.'
-    },
-    {
-      question: 'Compare Delhi Sultanate dynasties:\nSlave/Mamluk: 84 years, foundations\nKhalji: 30 years, most powerful\nTughlaq: 94 years, dramatic contrasts\nSayyid: 37 years, weakest\nLodi: 75 years, last Afghan',
-      options: ['Tughlaq longest', 'Khalji shortest', 'Tughlaq longest, Khalji shortest', 'All equal duration'],
-      correct: 2,
-      explanation: 'Tughlaq longest (94 years, Muhammad bin+Firoz Shah contrasts). Khalji shortest (30 years but most powerful under Alauddin). Slave/Mamluk=84 years foundations. Sayyid=37 years weakest. Lodi=75 years last. Total 320 years (1206-1526) transformed North India politically, culturally, architecturally.'
-    },
-    {
-      question: 'Delhi Sultanate Iqta system:\n1. Land revenue assignments to Muqtis\n2. Initially non-hereditary\n3. Similar to feudal systems\n4. Became hereditary over time',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Iqta=Revenue assignments (not ownership) to Muqtis/iqtadars (military commanders). Initially non-hereditary=State control, transferable. Similar to feudalism=Land-for-military exchange (but state property). Became hereditary=Over time, weakened central authority, contributed to fragmentation. Key revenue+military system.'
-    },
-    {
-      question: 'Delhi Sultanate administrative structure:\nSultan (absolute)\n→ Wazir (Prime Minister)\n→ Diwan-i-Wizarat (Finance)\n→ Diwan-i-Arz (Military)\n→ Diwan-i-Insha (Correspondence)',
-      options: ['Decentralized system', 'Three main departments under Wazir', 'No bureaucracy', 'Democratic councils'],
+      question: 'Who founded the Delhi Sultanate?',
+      options: ['Muhammad Ghori', 'Qutb-ud-din Aibak', 'Iltutmish', 'Balban'],
       correct: 1,
-      explanation: 'Centralized hierarchy: Sultan=Absolute authority. Wazir=Prime Minister/chief administrator. Three Diwans: Wizarat (finance/revenue), Arz (military/recruitment), Insha (royal correspondence/diplomatic). Efficient bureaucracy. Iqta for provinces. Model influenced Mughal administration.'
+      explanation: 'Qutb-ud-din Aibak (1206-1210 CE) founded the Delhi Sultanate. He was a slave of Muhammad Ghori and took the title "Lakh Baksh".'
     },
     {
-      question: 'Indo-Islamic architecture features:\n1. Fusion of Islamic (arches/domes/minarets) + Indian (carvings)\n2. Qutub Minar (72.5m victory tower)\n3. Alai Darwaza (Khalji, first true arch)\n4. Lodi Gardens (tomb architecture)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Fusion style=Islamic structural+Indian decorative (distinctive Indo-Islamic). Qutub Minar=Red sandstone, started 1199, tallest brick minaret. Alai Darwaza=Khalji period, first true Islamic arch in India, Persian inscriptions. Lodi Gardens=15th century tombs (octagonal, gardens). Architectural revolution, lasting legacy.'
+      question: 'Which ruler is considered the real consolidator of Delhi Sultanate?',
+      options: ['Qutb-ud-din Aibak', 'Iltutmish', 'Razia Sultan', 'Balban'],
+      correct: 1,
+      explanation: 'Iltutmish (1211-1236 CE) is considered the real founder/consolidator. He organized the Chahalgani, introduced currency, and was recognized by the Baghdad Caliph.'
     },
     {
-      question: 'Delhi Sultanate legacy:\n1. 320 years Islamic rule (1206-1526)\n2. Urdu language emerged\n3. Hindu-Muslim cultural synthesis\n4. Foundation for Mughal Empire',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
+      question: 'Who was the only woman ruler of Delhi Sultanate?',
+      options: ['Chand Bibi', 'Razia Sultan', 'Nur Jahan', 'Mumtaz Mahal'],
+      correct: 1,
+      explanation: 'Razia Sultan (1236-1240 CE), daughter of Iltutmish, was the only woman ruler of Delhi Sultanate. She faced opposition from nobles and was killed in 1240 CE.'
+    },
+    {
+      question: 'The Qutub Minar was started by which ruler?',
+      options: ['Muhammad Ghori', 'Qutb-ud-din Aibak', 'Iltutmish', 'Alauddin Khalji'],
+      correct: 1,
+      explanation: 'Qutub Minar was started by Qutb-ud-din Aibak in 1199 and completed by Iltutmish. It stands 72.5 meters tall.'
+    },
+    {
+      question: 'Balban introduced which court rituals?',
+      options: ['Darbar and Jharokha', 'Sijda and Paibos', 'Tuladan and Jharokha', 'Nauroz and Tuladan'],
+      correct: 1,
+      explanation: 'Balban (1266-1287 CE) introduced Persian court rituals of sijda (prostration) and paibos (kissing feet) to enhance royal dignity.'
+    },
+    {
+      question: 'Who was the greatest ruler of the Khalji dynasty?',
+      options: ['Jalal-ud-din Khalji', 'Alauddin Khalji', 'Qutb-ud-din Mubarak', 'Khusrau Khan'],
+      correct: 1,
+      explanation: 'Alauddin Khalji (1296-1316 CE) was the greatest Khalji ruler who conquered South India, repelled Mongols, and implemented market reforms.'
+    },
+    {
+      question: 'Which general led Alauddin Khalji\'s South Indian conquests?',
+      options: ['Bakhtiyar Khalji', 'Malik Kafur', 'Ulugh Khan', 'Tughril'],
+      correct: 1,
+      explanation: 'Malik Kafur, a Hindu convert and Alauddin\'s general, led campaigns conquering Devagiri, Warangal, Hoysalas, and reached Madurai (1307-1311).'
+    },
+    {
+      question: 'Alauddin Khalji\'s market reforms aimed to:',
+      options: ['Increase revenue', 'Control prices for army', 'Promote trade', 'Punish merchants'],
+      correct: 1,
+      explanation: 'Alauddin\'s market reforms fixed prices of essential commodities to ensure cheap supplies for his large standing army to fight Mongols.'
+    },
+    {
+      question: 'How many times did Alauddin Khalji successfully repel Mongol invasions?',
+      options: ['3', '5', 'Multiple times (1297-1308)', '10'],
+      correct: 2,
+      explanation: 'Alauddin Khalji successfully repelled multiple Mongol invasions between 1297-1308 CE, built Siri Fort, and maintained a strong army.'
+    },
+    {
+      question: 'Who founded the Tughlaq dynasty?',
+      options: ['Ghiyas-ud-din Tughlaq', 'Muhammad bin Tughlaq', 'Firoz Shah Tughlaq', 'Balban'],
+      correct: 0,
+      explanation: 'Ghiyas-ud-din Tughlaq (1320-1325 CE) founded the Tughlaq dynasty. He built Tughlaqabad Fort and focused on agricultural development.'
+    },
+    {
+      question: 'Muhammad bin Tughlaq is known for how many failed experiments?',
+      options: ['Three', 'Four', 'Five', 'Six'],
+      correct: 2,
+      explanation: 'Muhammad bin Tughlaq (1325-1351 CE) conducted five experiments: Doab taxation, capital transfer, token currency, Khurasan expedition, and Qarachil expedition - all failed.'
+    },
+    {
+      question: 'The capital was transferred from Delhi to Daulatabad by:',
+      options: ['Alauddin Khalji', 'Muhammad bin Tughlaq', 'Firoz Shah Tughlaq', 'Sikandar Lodi'],
+      correct: 1,
+      explanation: 'Muhammad bin Tughlaq transferred the capital to Daulatabad (1327) for central location and Deccan control, but abandoned it by 1335 after massive suffering.'
+    },
+    {
+      question: 'Token currency experiment failed because of:',
+      options: ['Lack of silver', 'Massive counterfeiting', 'Public opposition', 'Foreign invasion'],
+      correct: 1,
+      explanation: 'Muhammad bin Tughlaq\'s token currency (copper = silver value) failed due to massive counterfeiting, leading to economic chaos (1329-1330).'
+    },
+    {
+      question: 'Which Tughlaq ruler was known as the "welfare sultan"?',
+      options: ['Ghiyas-ud-din', 'Muhammad bin Tughlaq', 'Firoz Shah Tughlaq', 'Nasiruddin'],
+      correct: 2,
+      explanation: 'Firoz Shah Tughlaq (1351-1388 CE) was known for welfare works: built canals, hospitals, schools, 50 dams, and established 180,000-strong slave department.'
+    },
+    {
+      question: 'Timur invaded Delhi in which year?',
+      options: ['1325 CE', '1398 CE', '1450 CE', '1526 CE'],
+      correct: 1,
+      explanation: 'Timur (Tamerlane) invaded and sacked Delhi in 1398-1399 CE during weak Tughlaq rule, causing massive destruction and accelerating Sultanate decline.'
+    },
+    {
+      question: 'The Sayyid dynasty ruled for how many years?',
+      options: ['30 years', '37 years', '50 years', '75 years'],
+      correct: 1,
+      explanation: 'Sayyid dynasty (1414-1451 CE) ruled for only 37 years, the weakest dynasty controlling only Delhi and surroundings.'
+    },
+    {
+      question: 'Who founded the Sayyid dynasty?',
+      options: ['Khizr Khan', 'Mubarak Shah', 'Muhammad Shah', 'Alam Shah'],
+      correct: 0,
+      explanation: 'Khizr Khan (1414-1421 CE) founded the Sayyid dynasty after being Timur\'s governor. The dynasty claimed descent from Prophet Muhammad.'
+    },
+    {
+      question: 'Which was the first Afghan dynasty of Delhi Sultanate?',
+      options: ['Khalji', 'Tughlaq', 'Sayyid', 'Lodi'],
       correct: 3,
-      explanation: 'All correct. 320 years=Five dynasties transformed North India. Urdu=Evolved (Persian+Hindi/Sanskrit+Arabic in army camps/markets). Cultural synthesis=Sufi-Bhakti exchange, composite culture. Mughal foundation=Administrative systems (Iqta, Diwan), architecture (Indo-Islamic fusion), court culture influenced Akbar. Transformative period.'
+      explanation: 'Lodi dynasty (1451-1526 CE) was the first and only Afghan dynasty of Delhi Sultanate, founded by Bahlul Lodi.'
+    },
+    {
+      question: 'Who was the best ruler of the Lodi dynasty?',
+      options: ['Bahlul Lodi', 'Sikandar Lodi', 'Ibrahim Lodi', 'Daulat Khan Lodi'],
+      correct: 1,
+      explanation: 'Sikandar Lodi (1489-1517 CE) was the best Lodi ruler who founded Agra (1504), extended empire, encouraged trade, and patronized literature.'
+    },
+    {
+      question: 'Who was the last sultan of Delhi Sultanate?',
+      options: ['Sikandar Lodi', 'Ibrahim Lodi', 'Bahlul Lodi', 'Alam Shah Sayyid'],
+      correct: 1,
+      explanation: 'Ibrahim Lodi (1517-1526 CE) was the last sultan, defeated and killed by Babur at First Battle of Panipat (1526), ending Delhi Sultanate.'
+    },
+    {
+      question: 'The First Battle of Panipat was fought in:',
+      options: ['1398 CE', '1451 CE', '1526 CE', '1556 CE'],
+      correct: 2,
+      explanation: 'First Battle of Panipat (April 21, 1526) was fought between Babur and Ibrahim Lodi, marking the end of Delhi Sultanate and beginning of Mughal Empire.'
+    },
+    {
+      question: 'Who introduced the Iqta system?',
+      options: ['Qutb-ud-din Aibak', 'Iltutmish', 'Alauddin Khalji', 'Muhammad bin Tughlaq'],
+      correct: 1,
+      explanation: 'Iltutmish organized the Iqta system where land revenue assignments were given to nobles (Muqtis) who maintained troops. Initially non-hereditary.'
+    },
+    {
+      question: 'The "Chahalgani" or Group of 40 was organized by:',
+      options: ['Qutb-ud-din Aibak', 'Iltutmish', 'Balban', 'Razia Sultan'],
+      correct: 1,
+      explanation: 'Iltutmish organized "Turkan-i-Chahalgani" (Group of 40 nobles). Balban later broke their power to establish absolute monarchy.'
+    },
+    {
+      question: 'Which currency was introduced by Iltutmish?',
+      options: ['Gold mohur', 'Silver tanka and copper jital', 'Token currency', 'Dam'],
+      correct: 1,
+      explanation: 'Iltutmish introduced silver tanka (standard coin) and copper jital (fractional currency), establishing a proper monetary system.'
+    },
+    {
+      question: 'Alai Darwaza was built by:',
+      options: ['Qutb-ud-din Aibak', 'Iltutmish', 'Alauddin Khalji', 'Sikandar Lodi'],
+      correct: 2,
+      explanation: 'Alai Darwaza (gateway) was built by Alauddin Khalji at the Qutub complex, showcasing Indo-Islamic architectural excellence.'
+    },
+    {
+      question: 'Agra was founded as a capital by:',
+      options: ['Bahlul Lodi', 'Sikandar Lodi', 'Ibrahim Lodi', 'Akbar'],
+      correct: 1,
+      explanation: 'Sikandar Lodi founded Agra in 1504 CE and made it his capital, which later became the Mughal capital under Akbar.'
+    },
+    {
+      question: 'Delhi Sultanate lasted for how many years?',
+      options: ['200 years', '250 years', '320 years', '400 years'],
+      correct: 2,
+      explanation: 'Delhi Sultanate lasted 320 years (1206-1526 CE) across five dynasties before being replaced by the Mughal Empire.'
+    },
+    {
+      question: 'Which language emerged during the Delhi Sultanate period?',
+      options: ['Hindi', 'Urdu', 'Persian', 'Arabic'],
+      correct: 1,
+      explanation: 'Urdu language emerged during Delhi Sultanate as a fusion of Persian, Arabic, and local languages, representing cultural synthesis.'
+    },
+    {
+      question: 'Indo-Islamic architecture features include:',
+      options: ['Only domes', 'Only minarets', 'Arches, domes, minarets - fusion style', 'Only arches'],
+      correct: 2,
+      explanation: 'Indo-Islamic architecture combined Islamic features (arches, domes, minarets) with Indian elements, creating a unique fusion style seen in Qutub Minar, mosques, and forts.'
+    },
+    {
+      question: 'The Delhi Sultanate\'s administrative head was:',
+      options: ['Wazir (Prime Minister)', 'Diwan-i-Arz', 'Diwan-i-Insha', 'Muqti'],
+      correct: 0,
+      explanation: 'Wazir was the prime minister and head of administration. Other important departments: Diwan-i-Wizarat (finance), Diwan-i-Arz (military), Diwan-i-Insha (correspondence).'
     }
   ],
 
-  // BAHMANI & VIJAYANAGARA QUIZ
+  // BAHMANI & VIJAYANAGARA QUIZ (25 questions covering 28 flashcards)
   'bahmani-vijayanagara': [
     {
-      question: 'Bahmani-Vijayanagara rivalry:\n1. Both founded mid-14th century (1347/1336)\n2. Constant wars over Raichur Doab\n3. Neither achieved decisive victory\n4. Exhausted both empires',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Founded together=Bahmani 1347, Vijayanagara 1336 (Deccan rivals). Raichur Doab=Fertile Krishna-Tungabhadra region, fought 1350-1520. No decisive victor=Multiple wars, no permanent conquest. Exhaustion=Weakened both (Bahmani fragmented 1527, Vijayanagara vulnerable to Talikota 1565). Twin Deccan powers.'
-    },
-    {
-      question: 'Match Bahmani sultans:\nA. Alauddin Hasan Bahman Shah - 1. Greatest PM, madrasa\nB. Firoz Shah Bahmani - 2. Founder, rebelled vs Tughlaq\nC. Ahmad Shah I - 3. Capital Gulbarga→Bidar\nD. Mahmud Gawan - 4. Greatest sultan, 25 years',
-      options: ['A-2, B-4, C-3, D-1', 'A-1, B-2, C-4, D-3', 'A-3, B-1, C-2, D-4', 'A-4, B-3, C-1, D-2'],
-      correct: 0,
-      explanation: 'Correct: Alauddin=Founder 1347 (Zafar Khan renamed). Firoz Shah=Greatest sultan (1397-1422, 25 years, captured Warangal). Ahmad Shah I=Capital shift 1422 (Bidar better strategic). Mahmud Gawan=Persian PM, reformed taraf system, built madrasa, executed 1481 (decline began). Key Bahmani timeline.'
-    },
-    {
-      question: 'Bahmani fragmentation (1490-1527):\nBijapur (Adil Shahi)\nAhmadnagar (Nizam Shahi)\nGolconda (Qutb Shahi)\nBidar (Barid Shahi)\nBerar (Imad Shahi)',
-      options: ['Only 3 sultanates', 'Due to Mahmud Gawan execution', 'All lasted 10 years only', 'No alliance possible'],
+      question: 'Who founded the Bahmani Sultanate?',
+      options: ['Hasan Gangu', 'Alauddin Hasan Bahman Shah (Zafar Khan)', 'Firoz Shah', 'Muhammad Shah I'],
       correct: 1,
-      explanation: 'Cause=After Mahmud Gawan execution 1481, weak rulers lost control. Provincial governors became independent. 5 Deccan Sultanates formed 1490-1527. Later allied to defeat Vijayanagara at Talikota 1565. Some lasted till Aurangzeb 17th century. Bahmani 180-year empire divided but successors remained powerful.'
+      explanation: 'Alauddin Hasan Bahman Shah, originally Zafar Khan, founded the Bahmani Sultanate in 1347 CE by rebelling against Muhammad bin Tughlaq.'
     },
     {
-      question: 'Mahmud Gawan (1461-1481):\n1. Persian merchant became PM\n2. Reformed revenue (8 provinces/tarafs)\n3. Built famous madrasa (Bidar, 3000 manuscripts)\n4. Executed due to court intrigue',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Persian merchant=Rose to PM (greatest Bahmani administrator). Reformed taraf system=8 provinces, centralized control. Madrasa 1472=Three stories, library 3000 manuscripts, major learning center. Executed 1481=Court intrigue/conspiracy. After him, Bahmani decline/fragmentation began. Watershed figure.'
+      question: 'The Bahmani capital was shifted from Gulbarga to Bidar by:',
+      options: ['Firoz Shah Bahmani', 'Ahmad Shah I', 'Muhammad Shah I', 'Mahmud Gawan'],
+      correct: 1,
+      explanation: 'Ahmad Shah I shifted the capital from Gulbarga to Bidar in 1422 CE for better strategic location.'
     },
     {
-      question: 'Vijayanagara 4 dynasties:\n1. Sangama (1336-1485): Founders\n2. Saluva (1485-1505): Transition\n3. Tuluva (1505-1570): Golden Age\n4. Aravidu (1570-1646): Decline',
-      options: ['Only 2 dynasties', 'Tuluva shortest', 'All correct', 'Sangama lasted 50 years'],
+      question: 'Who was the greatest administrator of the Bahmani Sultanate?',
+      options: ['Firoz Shah', 'Mahmud Gawan', 'Ahmad Shah', 'Muhammad Shah III'],
+      correct: 1,
+      explanation: 'Mahmud Gawan (1461-1481) was the greatest administrator who reformed revenue system, built famous madrasa, but was executed due to court intrigue.'
+    },
+    {
+      question: 'Mahmud Gawan Madrasa was built in which city?',
+      options: ['Gulbarga', 'Bidar', 'Delhi', 'Daulatabad'],
+      correct: 1,
+      explanation: 'Mahmud Gawan Madrasa was built in Bidar in 1472 CE, featuring three stories with a library of 3,000 manuscripts.'
+    },
+    {
+      question: 'The Bahmani Sultanate fragmented into how many Deccan Sultanates?',
+      options: ['Three', 'Four', 'Five', 'Six'],
       correct: 2,
-      explanation: 'All correct. Sangama=Founders Harihara I & Bukka Raya I, 149 years. Saluva=Short transition 20 years (Saluva Narasimha). Tuluva=Golden Age 65 years (Krishnadevaraya peak 1509-1529). Aravidu=Longest decline 76 years (post-Talikota, capital moved, fragmented). Total 310 years across 4 dynasties.'
+      explanation: 'The Bahmani Sultanate split into 5 Deccan Sultanates: Bijapur, Ahmadnagar, Golconda, Bidar, and Berar (1490-1527 CE).'
     },
     {
-      question: 'Krishnadevaraya (1509-1529) achievements:\n1. Greatest Vijayanagara emperor\n2. Defeated Bahmani successors\n3. Wrote "Amuktamalyada" (Telugu), title "Andhra Bhoja"\n4. Maintained Ashtadiggajas (8 poets)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Greatest=Peak 1509-1529. Military=Defeated Bijapur+Golconda, captured Raichur+Gulbarga, conquered Orissa. Literary=Wrote Amuktamalyada (Telugu epic), "Andhra Bhoja" title (compared to King Bhoja). Court=Ashtadiggajas (8 poets, Allasani Peddana "Andhra Kavita Pitamaha"). Military+cultural genius, Golden Age.'
-    },
-    {
-      question: 'Ashtadiggajas (Eight Elephants):\n1. 8 great Telugu poets\n2. Krishnadevaraya court\n3. Allasani Peddana greatest ("Andhra Kavita Pitamaha")\n4. Included Tenali Ramakrishna',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. 8 poets=Ashtadiggajas ("Eight Elephants"). Court=Krishnadevaraya patronage. Allasani Peddana=Greatest, "Andhra Kavita Pitamaha" (Grandfather of Telugu Poetry). Tenali Ramakrishna=Court jester+poet (famous for wit/humor in folk tales). Elevated Telugu literature to new heights.'
-    },
-    {
-      question: 'Battle of Talikota (January 26, 1565):\n1. Vijayanagara vs 4 Deccan Sultanates\n2. Decisive Vijayanagara defeat\n3. Hampi sacked (6-month destruction)\n4. Empire never recovered',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Alliance=Bijapur+Ahmadnagar+Golconda+Bidar united (first time against common enemy). Decisive defeat=Vijayanagara army crushed. Hampi sacked=6-month destruction, magnificent capital reduced to ruins. Never recovered=Fragmented, Aravidu dynasty weak decline 1570-1646. Watershed ending South Hindu empire glory.'
-    },
-    {
-      question: 'Hampi (UNESCO 1986):\n1. Capital on Tungabhadra (Karnataka)\n2. World\'s largest city (15th-16th century)\n3. Virupaksha, Vitthala (Stone Chariot) temples\n4. Destroyed 1565 (Talikota)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Location=Tungabhadra banks, founded 1336. Size=Among world\'s largest urban centers 15th-16th century. Temples=Virupaksha (Shiva), Vitthala (Stone Chariot+56 musical pillars), Hazara Rama, Krishna - Dravidian-Vijayanagara fusion. Destroyed=Talikota aftermath. UNESCO 1986, ruins showcase empire magnificence.'
-    },
-    {
-      question: 'Vitthala Temple features:\n1. Dedicated to Vitthala (Vishnu)\n2. Stone Chariot (iconic monolithic)\n3. 56 Musical pillars (produce notes)\n4. Krishnadevaraya era construction',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Vishnu temple=Vitthala form worship. Stone Chariot=Iconic monolithic (Garuda vehicle, intricate carvings). Musical pillars=56 pillars in Ranga Mandapa produce SaRiGaMa notes when tapped (architectural+acoustic marvel). Krishnadevaraya era=15th-16th century peak construction. Exemplifies empire craftsmanship, major tourist attraction.'
-    },
-    {
-      question: 'Nayankara vs Iqta system:\nNayankara (Vijayanagara): Military governors, land grants (amaram), hereditary\nIqta (Delhi Sultanate): Revenue assignments, Muqtis, initially non-hereditary',
-      options: ['Both identical', 'Nayankara more autonomous', 'Iqta more autonomous', 'No similarities'],
+      question: 'Who founded the Vijayanagara Empire?',
+      options: ['Krishnadevaraya', 'Harihara I and Bukka Raya I', 'Saluva Narasimha', 'Vidyaranya'],
       correct: 1,
-      explanation: 'Nayankara MORE autonomous. Similarities: Land-for-military service. Differences: Nayankara=Hereditary practice, greater local autonomy, maintained armies+administration. Iqta=State-controlled, transferable, less autonomy. Nayankara allowed regional power centers (contributed to post-Talikota fragmentation). Both feudal-military systems adapted to empires.'
+      explanation: 'Brothers Harihara I and Bukka Raya I founded the Vijayanagara Empire in 1336 CE, inspired by sage Vidyaranya.'
     },
     {
-      question: 'Foreign travelers to Vijayanagara:\nNicolo Conti (Italian, 1420s)\nAbdur Razzaq (Persian, 1443)\nDomingo Paes (Portuguese, 1520s - Krishnadevaraya)\nFernao Nuniz (Portuguese, 1530s)',
-      options: ['Only Indian sources', 'All praised wealth/grandeur', 'Only critical accounts', 'No documentation'],
+      question: 'How many dynasties ruled Vijayanagara Empire?',
+      options: ['Two', 'Three', 'Four', 'Five'],
+      correct: 2,
+      explanation: 'Four dynasties ruled: Sangama (1336-1485), Saluva (1485-1505), Tuluva (1505-1570), and Aravidu (1570-1646).'
+    },
+    {
+      question: 'Who was the greatest ruler of Vijayanagara?',
+      options: ['Harihara I', 'Bukka Raya', 'Krishnadevaraya', 'Saluva Narasimha'],
+      correct: 2,
+      explanation: 'Krishnadevaraya (1509-1529 CE) of the Tuluva dynasty was the greatest ruler, called "Andhra Bhoja", who wrote "Amuktamalyada".'
+    },
+    {
+      question: 'Krishnadevaraya wrote which famous Telugu work?',
+      options: ['Ashtadiggajas', 'Amuktamalyada', 'Manucharitam', 'Panduranga Mahatmyam'],
       correct: 1,
-      explanation: 'All praised: Wealth (prosperous bazaars, jewels), Grandeur (Hampi magnificence), Administration (efficient governance), Military (strong army), Mahanavami festival. Domingo Paes=Most detailed (Krishnadevaraya reign). Important external verification of empire glory. Contemporary documentation invaluable for historians.'
+      explanation: '"Amuktamalyada" is a Telugu epic written by Krishnadevaraya, showcasing his literary prowess and Telugu patronage.'
     },
     {
-      question: 'Vijayanagara economy:\n1. Spice, textile, gem trade hub\n2. Ports: Goa, Calicut, Mangalore\n3. Horse trade with Arabia (cavalry necessity)\n4. Pagoda gold coins',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Trade=Spices (pepper, cardamom), textiles (cotton, silk), gems (Golconda diamond mines). Ports=West coast (trade with Persia, Arabia, Portugal). Horses=Critical Arabian imports (Deccan unsuitable for breeding warhorses, cavalry essential). Pagoda coins=Gold currency (international acceptance). Economic prosperity funded military+architecture.'
+      question: 'How many great poets (Ashtadiggajas) were in Krishnadevaraya\'s court?',
+      options: ['Six', 'Seven', 'Eight', 'Nine'],
+      correct: 2,
+      explanation: 'Ashtadiggajas means "Eight Elephants" - 8 great Telugu poets including Allasani Peddana (greatest, "Andhra Kavita Pitamaha").'
     },
     {
-      question: 'Raichur Doab strategic importance:\n1. Between Krishna-Tungabhadra rivers\n2. Fertile agricultural land\n3. Fought over 170+ years (1350-1520)\n4. Changed hands repeatedly',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Location=Doab (two rivers) between Krishna+Tungabhadra. Fertility=Rich black soil, agricultural surplus, economic wealth. Wars=Continuous 170+ years conflict. Possession=Alternated, no permanent control (exhausted both empires). Strategic+economic prize driving Bahmani-Vijayanagara rivalry, contributed to mutual weakening.'
+      question: 'The Battle of Talikota was fought in:',
+      options: ['1526 CE', '1565 CE', '1646 CE', '1556 CE'],
+      correct: 1,
+      explanation: 'The Battle of Talikota (January 26, 1565) saw Vijayanagara defeated by the alliance of Deccan Sultanates, leading to Hampi\'s destruction.'
     },
     {
-      question: 'Mahanavami festival (9-day Durga):\n1. Grand annual celebration\n2. Military parade and display\n3. Tribute collection from vassals\n4. Foreign ambassadors received',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. 9-day Durga/Dasara festival. Military parade=Army display, cavalry demonstrations. Tribute=Vassals paid annual tribute, showed loyalty. Ambassadors=Foreign envoys received (diplomatic importance). Cultural performances. Mahanavami Platform built for ceremonies. Domingo Paes documented magnificence. Major state event showcasing empire power.'
+      question: 'Which city served as the capital of Vijayanagara Empire?',
+      options: ['Madurai', 'Hampi', 'Warangal', 'Bidar'],
+      correct: 1,
+      explanation: 'Hampi, on the Tungabhadra River, was the magnificent capital. Now a UNESCO World Heritage Site with impressive ruins.'
     },
     {
-      question: 'Match Vijayanagara legacies:\nA. Architecture - 1. Allasani Peddana leader\nB. Literature - 2. Hampi temples, Stone Chariot\nC. Festival - 3. Mahanavami (9-day)\nD. Poets - 4. Ashtadiggajas (8 Telugu)',
-      options: ['A-2, B-4, C-3, D-1', 'A-1, B-3, C-2, D-4', 'A-3, B-2, C-4, D-1', 'A-4, B-1, C-3, D-2'],
-      correct: 0,
-      explanation: 'Correct: Architecture=Hampi temples (Dravidian-Vijayanagara fusion, Stone Chariot iconic). Literature=Ashtadiggajas elevated Telugu (Allasani Peddana greatest). Festival=Mahanavami grand celebrations (military, tribute, cultural). Poets=8 great Telugu poets. Comprehensive Golden Age preserving Hindu traditions during Islamic expansion South. 310-year empire (1336-1646) left lasting cultural legacy.'
+      question: 'The famous Stone Chariot is located in which temple?',
+      options: ['Virupaksha Temple', 'Vitthala Temple', 'Hazara Rama Temple', 'Krishna Temple'],
+      correct: 1,
+      explanation: 'The iconic Stone Chariot is in the Vitthala Temple complex, which also features 56 musical pillars.'
+    },
+    {
+      question: 'The Nayankara system in Vijayanagara was similar to:',
+      options: ['Mansabdari system', 'Iqta system', 'Jagir system', 'Zamindari system'],
+      correct: 1,
+      explanation: 'The Nayankara system, where military governors (Nayakas) got land grants and maintained troops, was similar to the Iqta system but more autonomous.'
+    },
+    {
+      question: 'Which region was constantly contested between Bahmanis and Vijayanagara?',
+      options: ['Konkan', 'Raichur Doab', 'Malabar', 'Coromandel'],
+      correct: 1,
+      explanation: 'Raichur Doab (between Krishna and Tungabhadra rivers) was fought over due to fertile land and strategic importance (1350-1520).'
+    },
+    {
+      question: 'Which Portuguese traveler visited Vijayanagara during Krishnadevaraya\'s reign?',
+      options: ['Vasco da Gama', 'Domingo Paes', 'Alfonso de Albuquerque', 'Francis Xavier'],
+      correct: 1,
+      explanation: 'Domingo Paes (1520s) provided detailed account of Hampi\'s magnificence, Krishnadevaraya\'s rule, and the Mahanavami festival.'
+    },
+    {
+      question: 'The Mahanavami festival in Vijayanagara lasted for:',
+      options: ['3 days', '7 days', '9 days', '15 days'],
+      correct: 2,
+      explanation: 'Mahanavami (Durga/Dasara) was a grand 9-day festival featuring military parades, tribute collection, and cultural performances.'
+    },
+    {
+      question: 'Firoz Shah Bahmani ruled for how many years?',
+      options: ['15 years', '20 years', '25 years', '30 years'],
+      correct: 2,
+      explanation: 'Firoz Shah Bahmani (1397-1422 CE) ruled for 25 years, the longest reign among Bahmani sultans, and was their greatest ruler.'
+    },
+    {
+      question: 'After whose death did the Bahmani Sultanate begin to decline?',
+      options: ['Firoz Shah', 'Ahmad Shah', 'Mahmud Gawan', 'Muhammad Shah III'],
+      correct: 2,
+      explanation: 'After Mahmud Gawan\'s execution in 1481 due to court intrigue, the Bahmani Sultanate began its decline, leading to fragmentation.'
+    },
+    {
+      question: 'Hampi became a UNESCO World Heritage Site in:',
+      options: ['1975', '1986', '1990', '2000'],
+      correct: 1,
+      explanation: 'Hampi was designated a UNESCO World Heritage Site in 1986 for its outstanding universal value and architectural significance.'
+    },
+    {
+      question: 'Which Deccan Sultanate was NOT formed from Bahmani fragmentation?',
+      options: ['Bijapur', 'Golconda', 'Mewar', 'Ahmadnagar'],
+      correct: 2,
+      explanation: 'Mewar was a Rajput kingdom. The five Deccan Sultanates were: Bijapur, Ahmadnagar, Golconda, Bidar, and Berar.'
+    },
+    {
+      question: 'The Vijayanagara Empire lasted for approximately:',
+      options: ['200 years', '250 years', '310 years', '400 years'],
+      correct: 2,
+      explanation: 'The Vijayanagara Empire lasted about 310 years (1336-1646 CE) across four dynasties before finally ending.'
+    },
+    {
+      question: 'Which foreign power traded horses with Vijayanagara?',
+      options: ['China', 'Arabia', 'Southeast Asia', 'Europe'],
+      correct: 1,
+      explanation: 'Arabia was the main source of horse trade for Vijayanagara, essential for their cavalry. Ports like Goa facilitated this trade.'
+    },
+    {
+      question: 'Allasani Peddana was known as:',
+      options: ['"Andhra Bhoja"', '"Andhra Kavita Pitamaha"', '"Kavi Chakravarti"', '"Sahitya Samrat"'],
+      correct: 1,
+      explanation: 'Allasani Peddana, greatest of the Ashtadiggajas, was called "Andhra Kavita Pitamaha" (Grandfather of Telugu Poetry).'
+    },
+    {
+      question: 'The Vijayanagara administrative system included how many major provinces?',
+      options: ['4', '6', '8', '10'],
+      correct: 1,
+      explanation: 'Vijayanagara was divided into 6 major provinces (rajyas/mandalas), each governed by officials reporting to the emperor.'
     }
   ]
 };
