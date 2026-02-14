@@ -35,13 +35,6 @@ export const topics = [
     emoji: '🗡️',
     description: 'Administration & Peshwa System (1674-1818)',
     color: '#cd853f' // Peru (orange-brown)
-  },
-  {
-    id: 'bhakti-sufi',
-    title: '🕉️ Bhakti & Sufi Traditions',
-    emoji: '🕉️',
-    description: 'Religious Reform Movements (500-1700 CE)',
-    color: '#daa520' // Goldenrod
   }
 ];
 
@@ -811,90 +804,6 @@ export const flashcards = {
       front: 'Balaji Vishwanath (1713-1720)',
       back: 'First prominent Peshwa:\n✓ Established Peshwa office as supreme and hereditary\n✓ Took control after Shambhaji\n✓ Streamlined administration\n✓ Founded naval bases (Konkan, Khanderi, Vijayadurg)\n✓ Made Peshwa position dominant\n✓ Legacy: Peshwa dynasty ruled till 1818'
     }
-  ],
-
-  // BHAKTI & SUFI TRADITIONS (500-1700 CE)
-  'bhakti-sufi': [
-    {
-      id: 1,
-      front: 'Bhakti Movement - Overview',
-      back: 'Religious reform movement (500-1700 CE):\n✓ Emphasized personal devotion to God\n✓ Rejected caste distinctions and rituals\n✓ Promoted vernacular languages\n✓ Made religion accessible to common people\n✓ Saints from all backgrounds\n✓ Synthesis of Hindu-Islamic ideas'
-    },
-    {
-      id: 2,
-      front: 'Early Bhakti Saints (500-900 CE)',
-      back: 'Tamil Nadu pioneers:\n✓ Appar (c.500-800 CE)\n✓ Sambandar (c.500-800 CE)\n✓ Sundaramurti (c.500-800 CE)\nContributions:\n✓ Nayan devotion in Tamil Nadu\n✓ Devotional hymns (Tevaram)\n✓ Shaivite tradition\n✓ Tamil Bhakti literature foundation'
-    },
-    {
-      id: 3,
-      front: 'Bhakti Saints (800-1000 CE)',
-      back: 'Expansion period:\n✓ Nammalvar (c.800-900 CE) - Vaishnava Alvar in Tamil Nadu\n✓ Manikkavachakar (c.800-900 CE) - Tiruvachakam, Andal, Tondaradippodi in Tamil Nadu\nContributions:\n✓ Vaishnava and Shaivite traditions\n✓ Tamil devotional literature flourished\n✓ Bhakti spread in South India'
-    },
-    {
-      id: 4,
-      front: 'Bhakti & Sufi Saints (1000-1200 CE)',
-      back: 'North Indian emergence:\n✓ Al Hujwiri (c.1000-1100 CE) - Punjab\n✓ Data Ganj Bakhsh in Punjab\n✓ Ramanujachary (c.1000-1100 CE) - Tamil Nadu\n✓ Basavanna (c.1100-1200 CE) - Karnataka (Lingayat movement)\nSignificance:\n✓ Bhakti reached North India\n✓ Sufi tradition entered India\n✓ Regional language literature'
-    },
-    {
-      id: 5,
-      front: 'Bhakti Saints (1200-1300 CE)',
-      back: 'Spread across regions:\n✓ Jnandev (c.1200-1300 CE) - Maharashtra (Jnaneshwari, Marathi Bhakti)\n✓ Khwaja Muinuddin Chishti (c.1200-1300 CE) - Rajasthan (Ajmer Dargah, Chishti Order)\n✓ Bahauddin Zakariyya and Fariduddin Ganj-i Shakar - Punjab\n✓ Qutbuddin Bakhtiyar Kaki - Delhi\nContributions:\n✓ Maharashtra Bhakti tradition (Varkari)\n✓ Chishti Sufi Order established\n✓ Hindu-Muslim synthesis'
-    },
-    {
-      id: 6,
-      front: 'Bhakti & Sufi Saints (1300-1400 CE)',
-      back: 'Golden Age expansion:\n✓ Lal Ded (c.1300-1400 CE) - Kashmir (Lal Vakhs, mystic poetry)\n✓ Lal Shahbaz Qalandar - Sind\n✓ Nizamuddin Auliya - Delhi (greatest Chishti saint)\n✓ Ramananda - Uttar Pradesh (Guru of Kabir)\n✓ Chokhamela - Maharashtra (Dalit saint, Varkari tradition)\n✓ Sharfuddin Yahya - Gujarat\nSignificance:\n✓ Bhakti reached all regions\n✓ Caste barriers challenged\n✓ Mysticism flourished'
-    },
-    {
-      id: 7,
-      front: 'Major Bhakti & Sufi Saints (1400-1500 CE)',
-      back: 'Peak period:\n✓ Kabir (c.1400-1500 CE) - Uttar Pradesh (Hindu-Muslim unity, nirgun bhakti)\n✓ Raidas (c.1400-1500 CE) - Uttar Pradesh (cobbler saint, challenged caste)\n✓ Surdas (c.1400-1500 CE) - Uttar Pradesh (Krishna devotion, blind poet)\n✓ Baba Guru Nanak (c.1400-1500 CE) - Punjab (Sikhism founder, Ik Onkar)\n✓ Vallabhacharya - Gujarat (Pushti Marg, Krishna devotion)\n✓ Abdullah Shattari - Gwalior\n✓ Muhammad Shah Alam - Gujarat\n✓ Mir Sayyid Muhammad Gesu Daraz - Gulbarga (Deccan Sufi)\n✓ Shankaradev - Assam (Ekasarana dharma)'
-    },
-    {
-      id: 8,
-      front: 'Bhakti Saints (1500-1600 CE)',
-      back: 'Consolidation period:\n✓ Sri Chaitanya (c.1500-1600 CE) - Bengal (Gaudiya Vaishnavism, Krishna-Radha bhakti)\n✓ Mirabai (c.1500-1600 CE) - Rajasthan (Krishna devotee, princess-saint, bhajans)\n✓ Shaikh Abdul Quddus Gangohi (c.1500-1600 CE)\n✓ Malik Muhammad Jaisi (c.1500-1600 CE)\n✓ Tulasidas (c.1500-1600 CE) - Uttar Pradesh (Ramcharitmanas in Awadhi)\nContributions:\n✓ Regional Bhakti movements consolidated\n✓ Major devotional literature (Ramcharitmanas)\n✓ Women saints prominent (Mirabai)'
-    },
-    {
-      id: 9,
-      front: 'Later Bhakti Saints (1600-1700 CE)',
-      back: 'Final phase:\n✓ Shaikh Ahmad Sirhindi (c.1600-1700 CE) - Haryana (Naqshbandi Order revival)\n✓ Miyan Mir (c.1600-1700 CE) - Punjab (Qadiri Order)\nSignificance:\n✓ Continued Hindu-Muslim spiritual synthesis\n✓ Sufi Orders consolidated\n✓ Bhakti tradition matured\n✓ Influenced Mughal religious policies'
-    },
-    {
-      id: 10,
-      front: 'Kabir (1400-1500 CE)',
-      back: 'Greatest Bhakti saint:\n✓ Location: Uttar Pradesh (Varanasi)\n✓ Background: Weaver, low caste\n✓ Teaching: Hindu-Muslim unity, Nirgun Bhakti (formless God)\n✓ Rejected: Rituals, caste, idolatry, scriptures\n✓ Language: Simple Hindi dohas (couplets)\n✓ Famous: "Kabir ke Dohe"\n✓ Legacy: Influenced Sikhism, universal brotherhood\n✓ Guru: Ramananda (tradition says)'
-    },
-    {
-      id: 11,
-      front: 'Guru Nanak (1469-1539 CE)',
-      back: 'Sikhism founder:\n✓ Location: Punjab\n✓ Core teaching: Ik Onkar (One God), equality, honest living\n✓ Rejected: Caste system, rituals, idol worship\n✓ Emphasized: Naam Japna (meditation), Kirat Karni (honest work), Vand Chakna (sharing)\n✓ Travels: Extensive (India, Middle East)\n✓ Compositions: Guru Granth Sahib foundation\n✓ Successors: 10 Sikh Gurus\n✓ Legacy: Sikhism as distinct religion'
-    },
-    {
-      id: 12,
-      front: 'Mirabai (1498-1547 CE)',
-      back: 'Princess-saint:\n✓ Location: Rajasthan (Mewar princess)\n✓ Devotion: Krishna (Giridhar Gopal)\n✓ Challenge: Royal family opposition, societal norms\n✓ Compositions: Bhajans in Rajasthani-Hindi\n✓ Themes: Intense love for Krishna, mystical union\n✓ Status: Most famous woman Bhakti saint\n✓ Legacy: Inspiration for devotional music\n✓ Symbol: Woman breaking social constraints for spirituality'
-    },
-    {
-      id: 13,
-      front: 'Chaitanya Mahaprabhu (1486-1534 CE)',
-      back: 'Bengal Vaishnavism:\n✓ Location: Bengal (Nabadwip)\n✓ Movement: Gaudiya Vaishnavism\n✓ Devotion: Krishna-Radha (divine love)\n✓ Practice: Sankirtana (congregational chanting), dancing\n✓ Teaching: Bhakti as highest path, emotional devotion\n✓ ISKCON: Modern continuation (Hare Krishna movement)\n✓ Legacy: Transformed Bengal spirituality\n✓ Influence: Spread to Vrindavan, Puri (Jagannath)'
-    },
-    {
-      id: 14,
-      front: 'Tulsidas (1532-1623 CE)',
-      back: 'Greatest Hindi poet:\n✓ Location: Uttar Pradesh (Varanasi)\n✓ Major work: Ramcharitmanas (Hindi retelling of Ramayana in Awadhi)\n✓ Devotion: Lord Rama (Saguna Bhakti - God with form)\n✓ Accessibility: Wrote in vernacular (Awadhi) instead of Sanskrit\n✓ Impact: Made Ramayana accessible to masses\n✓ Other works: Vinaya Patrika, Kavitavali, Hanuman Chalisa\n✓ Legacy: Ramcharitmanas central to North Indian Hindu culture\n✓ Status: Sant Tulasidas, revered poet-saint'
-    },
-    {
-      id: 15,
-      front: 'Nizamuddin Auliya (1238-1325 CE)',
-      back: 'Greatest Chishti Sufi saint:\n✓ Location: Delhi (Dargah at Nizamuddin)\n✓ Order: Chishti (most influential in India)\n✓ Teaching: Love, tolerance, service to humanity\n✓ Disciples: Amir Khusrau (poet-musician), thousands of followers\n✓ Relationship: Sultan Alauddin Khalji (complex, maintained independence)\n✓ Practice: Sama (music), langar (free food)\n✓ Legacy: Nizamuddin Dargah pilgrimage site\n✓ Impact: Hindu-Muslim cultural synthesis, Qawwali tradition'
-    },
-    {
-      id: 16,
-      front: 'Bhakti-Sufi Movement Impact',
-      back: 'Social & Cultural Revolution:\n✓ Challenged caste system (Kabir, Raidas, Chokhamela)\n✓ Promoted vernacular languages (Marathi, Hindi, Bengali, Punjabi)\n✓ Women empowerment (Mirabai, Lal Ded, Andal)\n✓ Hindu-Muslim synthesis (Kabir, Nizamuddin, Chishti Order)\n✓ Democratized religion (devotion over rituals)\n✓ Rich literature (Bhajans, Dohas, Abhangs)\n✓ Music tradition (Kirtan, Qawwali)\n✓ Foundation: Composite culture in medieval India'
-    }
   ]
 };
 
@@ -1531,82 +1440,6 @@ export const quizQuestions = {
       options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
       correct: 3,
       explanation: 'All correct. Portuguese=Initially manned artillery (European gunpowder technology). Indian Christians=Also involved (converted Christians with technical skills). English=Later recruited (British expertise). European expertise=Critical for modern warfare (cannon technology, tactics). Marathas pragmatic=Hired foreign experts despite religious differences. Artillery complemented strong cavalry. Infantry=Lower salaries, Jamindar+Vijayadura units, internal disputes. Complete army: Cavalry (main) + Infantry + Artillery + Navy (Balaji Vishwanath naval bases).'
-    }
-  ],
-
-  // BHAKTI & SUFI TRADITIONS QUIZ
-  'bhakti-sufi': [
-    {
-      question: 'Bhakti Movement characteristics:\n1. Emphasized personal devotion to God\n2. Rejected caste distinctions and rituals\n3. Promoted vernacular languages\n4. Only upper castes participated',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 0,
-      explanation: 'Options 1,2,3 correct. Personal devotion=Direct relationship with God (Bhakti path accessible to all). Rejected caste=Kabir (weaver), Raidas (cobbler), Chokhamela (Dalit) - challenged Brahmanic dominance. Vernacular=Tamil, Marathi, Hindi, Bengali, Punjabi, Awadhi (democratized religion). Option 4 incorrect - ALL castes participated (strength of movement). 500-1700 CE revolution. Made religion accessible to common people, women (Mirabai, Lal Ded, Andal).'
-    },
-    {
-      question: 'Match Bhakti saints with regions:\nA. Kabir - 1. Bengal (Gaudiya Vaishnavism)\nB. Guru Nanak - 2. Tamil Nadu (Shaivite hymns)\nC. Chaitanya - 3. Punjab (Sikhism founder)\nD. Appar/Sambandar - 4. Uttar Pradesh (Hindu-Muslim unity)',
-      options: ['A-4, B-3, C-1, D-2', 'A-1, B-2, C-3, D-4', 'A-2, B-4, C-3, D-1', 'A-3, B-1, C-4, D-2'],
-      correct: 0,
-      explanation: 'Correct: Kabir=UP Varanasi (1400-1500, weaver, Nirgun Bhakti, Hindu-Muslim unity, dohas). Guru Nanak=Punjab (1469-1539, Sikhism, Ik Onkar, 10 Gurus, equality). Chaitanya=Bengal (1486-1534, Gaudiya Vaishnavism, Krishna-Radha, Sankirtana, ISKCON roots). Appar/Sambandar=Tamil Nadu (500-800 CE, Shaivite Nayanars, Tevaram hymns, earliest Bhakti). Regional diversity of movement 500-1700 CE across subcontinent.'
-    },
-    {
-      question: 'Kabir (1400-1500 CE):\n1. Weaver by profession (low caste)\n2. Nirgun Bhakti (formless God)\n3. Rejected rituals, caste, idolatry\n4. Influenced Sikhism',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Weaver=Low caste background (challenged social hierarchy by merit). Nirgun=Formless God (neither Hindu nor Muslim exclusively, "Na Hindu na Musalman"). Rejected=Rituals, scriptures, caste, idols (radical reformer). Influenced Sikhism=Guru Nanak admired, 40 hymns in Guru Granth Sahib, equality concept. Compositions="Kabir ke Dohe" (simple Hindi couplets), accessible to masses. Guru: Ramananda. Greatest Bhakti saint, Hindu-Muslim unity symbol. Universal brotherhood preacher.'
-    },
-    {
-      question: 'Guru Nanak (1469-1539):\n1. Sikhism founder\n2. Core: Ik Onkar (One God), equality\n3. Rejected caste, rituals, idol worship\n4. 10 Sikh Gurus succeeded',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Sikhism founder=Distinct religion from Bhakti roots (Punjab). Ik Onkar="One God" (universal creator, monotheism). Three pillars: Naam Japna (meditation), Kirat Karni (honest work), Vand Chakna (sharing earnings). Rejected=Caste (all equal before God), rituals (meaningless ceremonies), idols (formless God). 10 Gurus=Succession till Guru Gobind Singh (Guru Granth Sahib final Guru). Extensive travels (India, Mecca, Baghdad). Langar (community kitchen) tradition. Influenced by Kabir, Sufism. Composite tradition.'
-    },
-    {
-      question: 'Mirabai (1498-1547):\n1. Rajasthan princess (Mewar)\n2. Krishna devotee (Giridhar Gopal)\n3. Faced royal family opposition\n4. Most famous woman Bhakti saint',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Princess=Mewar royalty, married into Chittor (widowed young, refused remarriage, devoted to Krishna). Krishna devotee=Called him "Giridhar Gopal" (intense mystical love, viewed as divine beloved). Opposition=Royal family, societal norms (widow remarriage, royal duties), persecution legend. Woman saint=Most famous (broke gender/caste/class barriers). Compositions=Bhajans in Rajasthani-Hindi (still sung today). Legacy=Symbol of spiritual liberation, woman agency. Challenged patriarchy through devotion. Inspiration for devotional music tradition.'
-    },
-    {
-      question: 'Compare Bhakti traditions:\nNirgun (formless): Kabir, Guru Nanak\nSaguna (with form): Tulsidas (Rama), Chaitanya (Krishna), Mirabai (Krishna)',
-      options: ['Only Nirgun existed', 'Both traditions flourished', 'Only Saguna existed', 'Complete conflict'],
-      correct: 1,
-      explanation: 'Both flourished=Diversity within Bhakti. Nirgun=Formless God (Kabir dohas, Nanak Ik Onkar, abstract devotion, rejected idolatry, influenced by Sufism). Saguna=God with form (Tulsidas Ramcharitmanas/Rama, Chaitanya Krishna-Radha/Bengal, Mirabai Krishna bhajans, Surdas Krishna, Vallabhacharya Pushti Marg). Complementary not contradictory. Both challenged caste/rituals. Nirgun=Philosophical/abstract. Saguna=Emotional/personal. Regional preferences. Coexisted peacefully. Richness of medieval Indian spirituality. Vernacular literature in both.'
-    },
-    {
-      question: 'Tulsidas (1532-1623) Ramcharitmanas:\n1. Hindi retelling of Ramayana\n2. Written in Awadhi (vernacular)\n3. Rama devotion (Saguna Bhakti)\n4. Made accessible to Sanskrit-ignorant masses',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Ramcharitmanas=Hindi retelling (contrasts with Valmiki Sanskrit Ramayana, not mere translation). Awadhi language=Vernacular of UP region (accessible to common people, democratization of scripture). Rama devotion=Saguna Bhakti (God with form/attributes). Accessible=Masses who couldn\'t read Sanskrit (religious revolution, challenged Brahmin monopoly). Other works: Hanuman Chalisa, Vinaya Patrika, Kavitavali. Location: Varanasi. Greatest Hindi poet. Ramcharitmanas=Central North Indian Hindu culture (Ram Lila performances). Sant Tulasidas revered.'
-    },
-    {
-      question: 'Chaitanya Mahaprabhu (1486-1534):\n1. Bengal Gaudiya Vaishnavism\n2. Krishna-Radha devotion (divine love)\n3. Sankirtana (congregational chanting)\n4. ISKCON modern continuation',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Gaudiya Vaishnavism=Bengali Krishna tradition (transformed regional spirituality). Krishna-Radha=Divine love model (emotional ecstatic devotion, dancing, prema/love highest). Sankirtana=Congregational chanting (public, dancing, musical, inclusive, joyful). ISKCON=International Society for Krishna Consciousness (founded 1966 by Prabhupada, modern continuation, Hare Krishna movement worldwide). Locations: Bengal Nabadwip birthplace, Vrindavan, Puri Jagannath. Influence: Vaishnavism spread. Bhakti as highest path. Transformed Bengal. Disciples spread movement. Emotional intense devotion contrast to austere traditions.'
-    },
-    {
-      question: 'Nizamuddin Auliya (1238-1325):\n1. Greatest Chishti Sufi saint\n2. Delhi Dargah pilgrimage site\n3. Disciple: Amir Khusrau (poet-musician)\n4. Teaching: Love, tolerance, service',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Greatest Chishti=Most influential Sufi saint in India (Chishti Order dominant). Delhi Dargah=Nizamuddin area, major pilgrimage (all faiths visit, urs celebration). Amir Khusrau=Greatest disciple (poet-musician, Qawwali tradition, Persian-Hindi poetry, "Chaap Tilak"). Teaching=Love for all, religious tolerance, service to humanity (rejected orthodoxy). Sama=Music/poetry mysticism. Langar=Free food tradition. Relationship with Sultan Alauddin Khalji (complex, maintained independence, refused to visit court). Hindu-Muslim synthesis. Dargah culture. Impact on composite culture medieval India. Qawwali Sufi music tradition.'
-    },
-    {
-      question: 'Chishti Sufi Order in India:\n1. Most influential Sufi Order\n2. Khwaja Muinuddin Chishti (Ajmer, 1200-1300)\n3. Nizamuddin Auliya (Delhi, greatest)\n4. Emphasized music (Sama) and langar',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Most influential=Dominant Sufi order in India (widespread following, Hindu-Muslim bridge). Muinuddin Chishti=Founder in India (Ajmer Dargah, Rajasthan 1200-1300, "Gharib Nawaz"=benefactor of poor). Nizamuddin=Greatest (Delhi, 1238-1325, Amir Khusrau disciple). Music+Langar=Distinctive practices (Sama spiritual music/Qawwali, free food service/equality). Other Chishti saints: Fariduddin Ganj-i Shakar Punjab, Qutbuddin Bakhtiyar Kaki Delhi, Gesu Daraz Gulbarga Deccan. Liberal approach (engaged with masses). Spread: Punjab, Delhi, UP, Deccan. Pilgrimage tradition. Syncretism facilitators.'
-    },
-    {
-      question: 'Early Bhakti saints (500-1100 CE):\nAlvars (Vaishnavas): Nammalvar, Andal, Tondaradippodi\nNayanars (Shaivites): Appar, Sambandar, Sundaramurti',
-      options: ['Only North India', 'Tamil Nadu pioneers', 'No regional literature', 'Sanskrit only'],
-      correct: 1,
-      explanation: 'Tamil Nadu pioneers=Bhakti originated South (500-1100 CE before North). Alvars=12 Vaishnava saints (Nammalvar greatest, Andal woman poet, devotion to Vishnu/Krishna). Nayanars=63 Shaivite saints (Appar, Sambandar, Sundaramurti composed Tevaram hymns). Tamil literature=Devotional hymns (not Sanskrit, vernacular revolution). Influence: Temple culture, Tamil Shaivism/Vaishnavism, later spread North (Ramanuja influenced by Alvars). Foundation of Bhakti movement. Challenged Brahminical dominance early. Women participation (Andal, Karaikkal Ammaiyar). Emotional devotion over rituals. Spread: Karnataka (Basavanna), Maharashtra (Jnandev), then North India.'
-    },
-    {
-      question: 'Bhakti-Sufi Movement social impact:\n1. Challenged caste system (low-caste saints)\n2. Women empowerment (Mirabai, Lal Ded, Andal)\n3. Hindu-Muslim synthesis\n4. Vernacular literature revolution',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Caste challenge=Kabir weaver, Raidas cobbler, Chokhamela Dalit, Basavanna rejected Brahminism (merit over birth). Women=Mirabai princess-poet, Lal Ded Kashmir mystic, Andal Tamil Alvar, Akka Mahadevi Karnataka - spiritual authority. Hindu-Muslim=Kabir synthesis, Chishti Sufis (Nizamuddin, Muinuddin), Guru Nanak composite tradition, shared dargah culture. Vernacular=Tamil (Tevaram), Marathi (Jnaneshwari), Hindi (Kabir dohas, Ramcharitmanas), Bengali (Chaitanya), Punjabi (Guru Granth), Rajasthani (Mirabai) - democratized religion. Music: Kirtan, Qawwali, Bhajan traditions. Composite medieval culture foundation. Social reform through spirituality.'
     }
   ]
 };
