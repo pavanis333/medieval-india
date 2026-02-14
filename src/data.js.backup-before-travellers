@@ -42,13 +42,6 @@ export const topics = [
     emoji: '🕉️',
     description: 'Religious Reform Movements (500-1700 CE)',
     color: '#daa520' // Goldenrod
-  },
-  {
-    id: 'foreign-travellers',
-    title: '🌍 Through The Eyes of Travellers',
-    emoji: '🌍',
-    description: 'Foreign Visitors to India (4th BCE - 17th CE)',
-    color: '#4682b4' // Steel blue
   }
 ];
 
@@ -902,95 +895,6 @@ export const flashcards = {
       front: 'Bhakti-Sufi Movement Impact',
       back: 'Social & Cultural Revolution:\n✓ Challenged caste system (Kabir, Raidas, Chokhamela)\n✓ Promoted vernacular languages (Marathi, Hindi, Bengali, Punjabi)\n✓ Women empowerment (Mirabai, Lal Ded, Andal)\n✓ Hindu-Muslim synthesis (Kabir, Nizamuddin, Chishti Order)\n✓ Democratized religion (devotion over rituals)\n✓ Rich literature (Bhajans, Dohas, Abhangs)\n✓ Music tradition (Kirtan, Qawwali)\n✓ Foundation: Composite culture in medieval India'
     }
-  ],
-
-  // FOREIGN TRAVELLERS (4th BCE - 17th CE)
-  'foreign-travellers': [
-    {
-      id: 1,
-      front: 'Foreign Travellers - Overview',
-      back: 'Importance:\n✓ External documentation of Indian history\n✓ Verified Indian sources\n✓ Described society, economy, culture, politics\n✓ Trade routes and connections\n✓ Religious practices\n✓ Administrative systems\n✓ Wealth and prosperity accounts\n✓ Contemporary eyewitness records'
-    },
-    {
-      id: 2,
-      front: 'Ancient Period Travellers (4th-7th CE)',
-      back: 'Greek & Chinese visitors:\n✓ Megasthenes (4th BCE) - Chandragupta Maurya court\n✓ Fa-Hien/Faxian (5th CE) - Chandragupta II Gupta Empire\n✓ Xuanzang/Hiuen Tsang (7th CE) - Post-Harsha period, Nalanda University\n✓ Yijing/I-Tsing (7th CE) - Nalanda University\nPurpose: Buddhist pilgrimage, learning\nDocumented: Buddhism, monasteries, education'
-    },
-    {
-      id: 3,
-      front: 'Medieval Islamic Travellers (10th-14th CE)',
-      back: 'Arab & Persian accounts:\n✓ Al-Masudi (10th, 914-928) - Rashtrakutas, Gurjara-Pratiharas\n✓ Al-Biruni (10th, 973-1048) - Mahmud of Ghazni, "Homer of East"\n✓ Firdausi (10th, 940-1019) - Mahmud court Iran\n✓ Minhaj-us-Siraj (13th, 1227) - Slave Dynasty Sultanate Iran\n✓ Marco Polo (13th, 1292-93) - Pandyas Italy\n✓ Ibn Battuta (14th, 1304-77) - Md. Bin Tughlaq Morocco\nDocumented: Islamic rule, sultanates, trade, customs'
-    },
-    {
-      id: 4,
-      front: 'Vijayanagara Visitors (15th-16th CE)',
-      back: 'European accounts:\n✓ Niccolò de Conti (15th, 1420) - Deva Raya II Italy\n✓ Abdur Razzaq Samarqandi (15th, 1440s) - Deva Raya II Uzbekistan\n✓ Afanasii Nikitin (15th, 1469) - Bahmani Russia\n✓ Duarte Barbosa (16th, 1518) - Vijayanagara Portugal d.1521\n✓ Domingo Paes (16th, 1520) - Krishnadeva Raya Portugal\nDocumented: Hampi magnificence, Vijayanagara wealth, administration'
-    },
-    {
-      id: 5,
-      front: 'Mughal Period European Travellers (16th-17th CE)',
-      back: 'English, French, Spanish visitors:\n✓ Antonio Monserrate (16th, 1536-1600) - Akbar Spain\n✓ Peter Mundy (17th, 1600-67) - Shah Jahan England\n✓ Jean-Baptiste Tavernier (17th, 1605-89) - Shah Jahan & Aurangzeb France\n✓ François Bernier (17th, 1620-88) - Aurangzeb France\nDocumented: Mughal court, wealth, trade, diamond mines, administration\nPurpose: Trade, jewels, European colonization interest'
-    },
-    {
-      id: 6,
-      front: 'Megasthenes (4th BCE)',
-      back: 'Greek ambassador:\n✓ Period: Chandragupta Maurya Empire (4th BCE)\n✓ Work: "Indica" (descriptions of India)\n✓ Documented: Pataliputra capital, Mauryan administration, society\n✓ Significance: Earliest detailed foreign account\n✓ Greek perspective on ancient India\n✓ Verified Mauryan power and prosperity'
-    },
-    {
-      id: 7,
-      front: 'Fa-Hien (Faxian) (5th CE)',
-      back: 'Chinese Buddhist monk:\n✓ Period: Chandragupta II Gupta Empire (5th CE)\n✓ Purpose: Buddhist pilgrimage, collect texts\n✓ Documented: Buddhism flourishing, monasteries, Gupta prosperity\n✓ Route: Through Central Asia to India\n✓ Significance: Gupta Golden Age verification\n✓ Buddhist practices and learning centers'
-    },
-    {
-      id: 8,
-      front: 'Xuanzang / Hiuen Tsang (7th CE)',
-      back: 'Most famous Chinese traveller:\n✓ Period: Post-Harsha (7th CE)\n✓ Duration: 16+ years in India\n✓ Documented: Nalanda University (detailed), Buddhist sites, Harsha court\n✓ Work: "Si-Yu-Ki" (Records of Western Regions)\n✓ Education: Studied at Nalanda\n✓ Significance: Most detailed ancient account, Buddhist learning peak\n✓ Took Buddhist texts back to China'
-    },
-    {
-      id: 9,
-      front: 'Al-Biruni (973-1048 CE)',
-      back: 'Persian scholar "Homer of the East":\n✓ Period: Mahmud of Ghazni (10th-11th CE)\n✓ Work: "Kitab-ul-Hind" (India book)\n✓ Documented: Hindu philosophy, science, mathematics, astronomy, customs\n✓ Learned Sanskrit\n✓ Significance: Scientific approach, comparative study\n✓ Most comprehensive medieval Islamic account\n✓ Understanding of Indian knowledge systems'
-    },
-    {
-      id: 10,
-      front: 'Ibn Battuta (1304-1377 CE)',
-      back: 'Moroccan traveller:\n✓ Period: Muhammad bin Tughlaq (14th CE, 1304-77)\n✓ Work: "Rihla" (The Journey)\n✓ Position: Qazi (judge) in Delhi court\n✓ Documented: Tughlaq experiments, Delhi Sultanate, postal system, society\n✓ Duration: 8+ years in India\n✓ Significance: Eyewitness to Tughlaq reign, detailed sultanate account\n✓ Perspective: Islamic scholar view of Hindu-Muslim India'
-    },
-    {
-      id: 11,
-      front: 'Marco Polo (1254-1324 CE)',
-      back: 'Venetian merchant:\n✓ Period: Pandyas (13th CE, 1292-93)\n✓ Route: Maritime route to South India\n✓ Documented: Pandya wealth, pearl fishing, spice trade, Malabar coast\n✓ Work: "Travels of Marco Polo"\n✓ Significance: European interest in Indian riches\n✓ Trade route information\n✓ Inspired later European exploration'
-    },
-    {
-      id: 12,
-      front: 'Domingo Paes (1520s CE)',
-      back: 'Portuguese traveller:\n✓ Period: Krishnadeva Raya Vijayanagara (16th CE, 1520)\n✓ Documented: Hampi magnificence, Krishnadeva court, Mahanavami festival\n✓ Detailed: Military, administration, bazaars, wealth\n✓ Significance: Most detailed Vijayanagara account\n✓ Eyewitness to peak of empire\n✓ Portuguese perspective on Hindu kingdom'
-    },
-    {
-      id: 13,
-      front: 'Abdur Razzaq Samarqandi (1440s CE)',
-      back: 'Persian ambassador:\n✓ Period: Deva Raya II Vijayanagara (15th CE, 1440s)\n✓ From: Uzbekistan (Timurid court)\n✓ Documented: Hampi prosperity, trade, administration, festivals\n✓ Praised: Vijayanagara grandeur and organization\n✓ Significance: Islamic diplomat view of Hindu empire\n✓ Contemporary comparison with other kingdoms'
-    },
-    {
-      id: 14,
-      front: 'Niccolò de Conti (1420 CE)',
-      back: 'Italian merchant:\n✓ Period: Deva Raya II Vijayanagara (15th CE, 1420)\n✓ Purpose: Trade\n✓ Documented: Vijayanagara wealth, diamond mines, spice trade\n✓ Route: First major European to visit Vijayanagara\n✓ Significance: European awareness of Southern riches\n✓ Encouraged later Portuguese/European interest'
-    },
-    {
-      id: 15,
-      front: 'Jean-Baptiste Tavernier (1605-1689 CE)',
-      back: 'French jewel merchant:\n✓ Period: Shah Jahan & Aurangzeb (17th CE, 1605-89)\n✓ Purpose: Diamond and jewel trade\n✓ Documented: Golconda diamond mines, Mughal wealth, court life\n✓ Famous: Saw Kohinoor, Peacock Throne\n✓ Work: "Six Voyages"\n✓ Significance: Detailed Mughal economy, trade routes\n✓ European commercial interest in India'
-    },
-    {
-      id: 16,
-      front: 'François Bernier (1620-1688 CE)',
-      back: 'French physician:\n✓ Period: Aurangzeb (17th CE, 1620-88)\n✓ Position: Court physician\n✓ Duration: 12 years in India\n✓ Documented: Mughal administration, Aurangzeb policies, society, economy\n✓ Critical perspective: Feudalism critique, land ownership system\n✓ Work: "Travels in the Mogul Empire"\n✓ Significance: Most detailed Aurangzeb period account\n✓ European Enlightenment perspective'
-    },
-    {
-      id: 17,
-      front: 'Traveller Contributions - Historical Significance',
-      back: 'Why Important:\n✓ External verification of Indian sources\n✓ Details missing in Indian records\n✓ Contemporary eyewitness accounts\n✓ Comparative perspectives (Chinese, Islamic, European)\n✓ Economic data (trade, wealth, prices)\n✓ Social practices documented\n✓ International connections shown\n✓ Baseline for historical research\n✓ Diverse viewpoints (Buddhist monks, merchants, diplomats, scholars)'
-    }
   ]
 };
 
@@ -1703,76 +1607,6 @@ export const quizQuestions = {
       options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
       correct: 3,
       explanation: 'All correct. Caste challenge=Kabir weaver, Raidas cobbler, Chokhamela Dalit, Basavanna rejected Brahminism (merit over birth). Women=Mirabai princess-poet, Lal Ded Kashmir mystic, Andal Tamil Alvar, Akka Mahadevi Karnataka - spiritual authority. Hindu-Muslim=Kabir synthesis, Chishti Sufis (Nizamuddin, Muinuddin), Guru Nanak composite tradition, shared dargah culture. Vernacular=Tamil (Tevaram), Marathi (Jnaneshwari), Hindi (Kabir dohas, Ramcharitmanas), Bengali (Chaitanya), Punjabi (Guru Granth), Rajasthani (Mirabai) - democratized religion. Music: Kirtan, Qawwali, Bhajan traditions. Composite medieval culture foundation. Social reform through spirituality.'
-    }
-  ],
-
-  // FOREIGN TRAVELLERS QUIZ
-  'foreign-travellers': [
-    {
-      question: 'Match ancient travellers with periods:\nA. Megasthenes - 1. Gupta Empire (5th CE)\nB. Fa-Hien - 2. Post-Harsha, Nalanda (7th CE)\nC. Xuanzang - 3. Chandragupta Maurya (4th BCE)\nD. Yijing - 4. Nalanda University (7th CE)',
-      options: ['A-3, B-1, C-2, D-4', 'A-1, B-2, C-3, D-4', 'A-2, B-3, C-4, D-1', 'A-4, B-1, C-3, D-2'],
-      correct: 0,
-      explanation: 'Correct: Megasthenes=Greek ambassador 4th BCE (Chandragupta Maurya, "Indica", Pataliputra, earliest detailed account). Fa-Hien=Chinese Buddhist monk 5th CE (Chandragupta II Gupta, pilgrimage, Gupta Golden Age). Xuanzang=Most famous Chinese 7th CE (16+ years, Nalanda study, Harsha court, "Si-Yu-Ki"). Yijing=Another Chinese monk 7th CE (Nalanda, Buddhist texts). Ancient Period=Greek+Chinese perspectives documenting Indian empires and Buddhism.'
-    },
-    {
-      question: 'Al-Biruni (973-1048) "Homer of the East":\n1. Came with Mahmud of Ghazni\n2. Wrote "Kitab-ul-Hind"\n3. Learned Sanskrit\n4. Scientific approach to Indian knowledge',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Mahmud period=10th-11th CE (Islamic conquest era). Kitab-ul-Hind=Comprehensive India book (Hindu philosophy, science, mathematics, astronomy, customs). Sanskrit=Learned language to access texts directly (rare for foreign scholars). Scientific approach=Comparative methodology, objective analysis, respect for Indian knowledge. Most comprehensive medieval Islamic account. "Homer of East" title reflects scholarly excellence. Understanding of Indian intellectual traditions unmatched in Islamic world.'
-    },
-    {
-      question: 'Ibn Battuta (1304-1377):\n1. Moroccan traveller\n2. Muhammad bin Tughlaq court (Qazi/judge)\n3. Wrote "Rihla" (The Journey)\n4. Witnessed Tughlaq experiments',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Moroccan=North African Islamic scholar (14th CE, 1304-77, extensive travels). Qazi position=Judge in Delhi Sultanate court (8+ years, insider perspective). Rihla=Travel account (detailed sultanate documentation). Tughlaq experiments=Eyewitness to five failed experiments (capital shift, token currency, Doab taxation, expeditions), postal system, society. Significance: Most detailed Delhi Sultanate account from Islamic perspective. Contrasts with Hindu-Muslim composite culture observations. Critical but fascinated by Indian diversity.'
-    },
-    {
-      question: 'Vijayanagara visitors:\nDomingo Paes (1520): Krishnadeva Raya\nAbdur Razzaq (1440s): Deva Raya II\nNiccolò de Conti (1420): Deva Raya II',
-      options: ['Only Indian sources exist', 'All documented Hampi magnificence', 'No foreign interest', 'Only one visitor'],
-      correct: 1,
-      explanation: 'All documented magnificence=Vijayanagara peak period (15th-16th CE). Domingo Paes=Portuguese 1520s (most detailed, Krishnadeva court, Mahanavami festival, military, bazaars). Abdur Razzaq=Persian ambassador 1440s (Islamic diplomat view, praised grandeur/organization, Uzbekistan Timurid court). Niccolò de Conti=Italian merchant 1420 (first major European, trade/diamonds/spices, wealth awareness). Multiple perspectives=Portuguese, Persian, Italian - all amazed by Hampi prosperity. Contemporary verification of Vijayanagara Golden Age.'
-    },
-    {
-      question: 'Match medieval Islamic travellers:\nA. Al-Masudi - 1. Mahmud of Ghazni (scientific account)\nB. Al-Biruni - 2. Muhammad bin Tughlaq (Qazi)\nC. Marco Polo - 3. Rashtrakutas (9th-10th CE)\nD. Ibn Battuta - 4. Pandyas (13th CE, Italian)',
-      options: ['A-3, B-1, C-4, D-2', 'A-1, B-2, C-3, D-4', 'A-2, B-3, C-4, D-1', 'A-4, B-1, C-2, D-3'],
-      correct: 0,
-      explanation: 'Correct: Al-Masudi=Arab traveller 914-928 (Rashtrakutas+Pratiharas prosperity, trade). Al-Biruni=Persian scholar 973-1048 (Mahmud Ghazni, Kitab-ul-Hind, scientific). Marco Polo=Venetian merchant 1292-93 (Pandyas South India, pearl fishing, spice trade, maritime route). Ibn Battuta=Moroccan 1304-77 (Tughlaq court, 8 years, Rihla). Medieval Period=Islamic world connections, trade routes, sultanate documentation. Diverse purposes: scholarship, trade, pilgrimage, diplomatic.'
-    },
-    {
-      question: 'Mughal period European travellers:\n1. Jean-Baptiste Tavernier (French jewel merchant)\n2. François Bernier (French physician)\n3. Peter Mundy (England)\n4. Antonio Monserrate (Spain)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. 16th-17th CE European surge. Tavernier=1605-89 (Shah Jahan+Aurangzeb, diamonds/jewels, Golconda mines, saw Kohinoor, "Six Voyages", trade routes). Bernier=1620-88 (Aurangzeb physician 12 years, "Travels in Mogul Empire", critical feudalism analysis). Peter Mundy=1600-67 (Shah Jahan, England). Monserrate=1536-1600 (Akbar, Spain). European commercial+colonial interest rising. Detailed Mughal wealth, administration, economy. Trade focus (diamonds, spices, textiles). Foundation for later colonization.'
-    },
-    {
-      question: 'Xuanzang (Hiuen Tsang) 7th CE:\n1. Most famous Chinese traveller\n2. 16+ years in India\n3. Studied at Nalanda University\n4. Wrote "Si-Yu-Ki" (Records)',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Most famous=Among all Chinese visitors to India (surpassed Fa-Hien). 16+ years=Longest stay (extensive documentation, deep understanding). Nalanda=Studied Buddhist philosophy (detailed university account: 10,000 monks, library, curriculum). Si-Yu-Ki=Records of Western Regions (most detailed ancient India account, Buddhist sites, Harsha court, social customs). Post-Harsha period. Purpose: Buddhist texts+learning (took 657 texts to China). Significance: Peak Buddhist learning documentation, Nalanda Golden Age, invaluable historical source.'
-    },
-    {
-      question: 'Domingo Paes (1520s) Vijayanagara:\n1. Portuguese traveller\n2. Krishnadeva Raya reign\n3. Documented Mahanavami festival\n4. Most detailed Vijayanagara account',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Portuguese=European perspective on Hindu empire (16th CE peak). Krishnadeva Raya=Greatest Vijayanagara emperor (1509-1529, Golden Age witness). Mahanavami=9-day festival (military parade, tribute, grandeur, Portuguese documented magnificence). Most detailed=Comprehensive account (court, administration, bazaars, wealth, military, daily life, architecture). Hampi prosperity at peak. Contemporary verification of Krishnadevaraya greatness. Complements Indian sources. European amazement at Hindu kingdom wealth. Important historical source for Vijayanagara studies.'
-    },
-    {
-      question: 'François Bernier (1620-1688) critique:\n1. Aurangzeb court physician (12 years)\n2. Criticized Mughal feudalism\n3. Wrote "Travels in Mogul Empire"\n4. European Enlightenment perspective',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Physician=Court doctor 12 years (insider access, detailed observations). Feudalism critique=Analyzed land ownership system (absence of private property, impact on agriculture/economy), compared to European systems. Travels=Most detailed Aurangzeb period (administration, policies, society, economy, religious intolerance documented). Enlightenment=17th CE European rationalist approach (analytical, comparative, critical evaluation). Significance: Economic analysis rare in travel accounts. Aurangzeb orthodox policies documented. European colonial understanding developing. Foundation for later British economic policies. Critical but informed perspective.'
-    },
-    {
-      question: 'Marco Polo (1254-1324) impact:\n1. Venetian merchant (13th CE)\n2. Documented Pandya wealth (South India)\n3. Maritime route to Malabar\n4. Inspired later European exploration',
-      options: ['1, 2 and 3 only', '1, 3 and 4 only', '2, 3 and 4 only', 'All of the above'],
-      correct: 3,
-      explanation: 'All correct. Venetian=Italian merchant-explorer (1292-93 in India, "Travels of Marco Polo"). Pandya wealth=South Indian kingdom (pearl fishing, spice trade, prosperity, gold). Maritime route=Sea route to Malabar coast (alternative to Silk Road). Inspired exploration=European fascination with Indian riches (Columbus sought India route westward, Vasco da Gama 1498 direct route). Significance: European awareness of Indian wealth explosion. Trade route information critical. Age of Exploration catalyst. Portuguese-Spanish competition for India route. Indirect: Led to Americas discovery (Columbus), Portuguese colonization (Goa). Economic motivation for European engagement India.'
-    },
-    {
-      question: 'Compare traveller purposes:\nReligious: Fa-Hien, Xuanzang, Yijing (Buddhist pilgrimage)\nScholarly: Al-Biruni (knowledge systems)\nDiplomatic: Megasthenes, Abdur Razzaq (ambassadors)\nCommercial: Marco Polo, Tavernier (trade)',
-      options: ['Only one purpose', 'Diverse motivations', 'All military', 'No documentation'],
-      correct: 1,
-      explanation: 'Diverse motivations=Different perspectives/purposes. Religious=Chinese Buddhist monks (pilgrimage, texts, monasteries, Nalanda). Scholarly=Al-Biruni scientific study (Sanskrit, Hindu knowledge, comparative). Diplomatic=Ambassadors (Megasthenes Mauryan court, Abdur Razzaq Vijayanagara, political relations). Commercial=Merchants (Marco Polo spices, Tavernier diamonds, trade routes, European economic interest). Also: Ibn Battuta (Qazi judicial), Bernier (physician medical). Multiple viewpoints=Comprehensive historical picture. Each documented different aspects (religion, science, politics, economy). Complementary sources. Evolution: Ancient (religious), Medieval (Islamic scholarly/diplomatic), Early Modern (European commercial/colonial). Reflects changing global connections.'
     }
   ]
 };
